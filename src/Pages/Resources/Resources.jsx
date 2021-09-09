@@ -9,6 +9,7 @@ const Resources = () => {
             <a href="https://www.cprogramming.com/whyprogram.html"> Why program </a>
             <a href="https://www.cprogramming.com/tutorial/thinking.html"> Thinking like a programmer </a>
 			<Typography variant="h4">Interesting Videos</Typography>
+            <a href="https://www.youtube.com/watch?v=nLmhmB6NzcM">Solving 0/1 Knapsack Problem </a>
 			<Typography variant="h4">Books</Typography>
 			<Typography variant="h4">Papers</Typography>
         </div>

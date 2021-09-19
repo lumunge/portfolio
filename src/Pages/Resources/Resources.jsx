@@ -11,6 +11,8 @@ const Resources = () => {
 			<Typography variant="h4">Interesting Videos</Typography>
             <a href="https://www.youtube.com/watch?v=nLmhmB6NzcM">Solving 0/1 Knapsack Problem </a>
 			<Typography variant="h4">Books</Typography>
+            <a href="#!"> Mastery - Robert Greene </a>
+            <a href="#!"> The Master Algorithm </a>
 			<Typography variant="h4">Papers</Typography>
         </div>
 	);

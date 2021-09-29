@@ -37,7 +37,7 @@ export default makeStyles(() => ({
 			padding: "1rem",
 		},
 	},
-	projectContainer: {
+	imgContainer: {
 		width: "50%",
 		height: "350px",
 	},

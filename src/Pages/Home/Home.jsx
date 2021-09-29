@@ -131,12 +131,14 @@ const Home = () => {
 				<Typography>case studies</Typography>
 				{cases.map((study, index) => (
 					<Paper elevation={3} className={classes.paper}>
-					<div className={classes.projectContainer}>
+					<div className={classes.imgContainer}>
+						<a href={study.image} rel="noreferrer" target="_blank">
 						<img
 							className={classes.projectImage}
-							src="https://user-images.githubusercontent.com/58906058/118359364-94a9fe80-b572-11eb-9f3c-78328e3f868e.png"
+							src={study.image}
 							alt="project"
 						/>
+						</a>
 					</div>
 					<div className={classes.details}>
 						<Typography variant="button">

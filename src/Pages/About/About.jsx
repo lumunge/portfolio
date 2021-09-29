@@ -1,11 +1,6 @@
 import { Container, Typography, Button, Paper, Grid } from "@material-ui/core";
 // icons
-import {
-	FaReact,
-	FaUniversalAccess,
-	FaMaxcdn,
-	FaNeos,
-} from "react-icons/fa";
+import { FaReact, FaUniversalAccess, FaMaxcdn, FaNeos } from "react-icons/fa";
 import {
 	DiHtml5,
 	DiCss3,
@@ -22,7 +17,7 @@ import {
 	DiFirebase,
 	DiMongodb,
 	DiMysql,
-	DiRequirejs
+	DiRequirejs,
 } from "react-icons/di";
 import useStyles from "./styles.js";
 
@@ -58,18 +53,18 @@ const About = () => {
 					Intersection of Code and Business
 				</Typography>
 				<Typography variant="h5">
-					The internet and technology is the greatest reward to mankind as it offers
-					us a wide range of choices and opportunities in contrast to
-					outdated conventional ways where a group controlled what we
-					know or do. This is my inspiration to being a developer
-					because i can build anything. Software makes a real
-					impact in peoples lives from blogs the shares awesome
-					stories that inspire people to ecommerce stores that enable
-					people to shop at the comforts of their homes to health
-					systems that diagnose patients for free imporoving the
-					quality of lives to search engines that save us years of
-					college and expenses that go with to social media that
-					connects people.
+					The internet and technology is the greatest reward to
+					mankind as it offers us a wide range of choices and
+					opportunities in contrast to outdated conventional ways
+					where a group controlled what we know or do. This is my
+					inspiration to being a developer because i can build
+					anything. Software makes a real impact in peoples lives from
+					blogs the shares awesome stories that inspire people to
+					ecommerce stores that enable people to shop at the comforts
+					of their homes to health systems that diagnose patients for
+					free imporoving the quality of lives to search engines that
+					save us years of college and expenses that go with to social
+					media that connects people.
 					<span>Life</span> was meant to be easy and the{" "}
 					<span> internet </span> has made it and is still simplifying
 					life for us. Soon we would not have to work and the robots
@@ -80,38 +75,32 @@ const About = () => {
 				<Typography variant="caption">Background</Typography>
 				<br />
 				<br />
-				<Typography variant="h3">
-					Following my Passion and Likes
-				</Typography>
+				<Typography variant="h3">Following my Passion</Typography>
 				<Typography variant="h5">
-					Conventional eductaion did not serve me as i expected, I
-					failed terribly in school in topics like history, biology,
-					chemistry and this impacted my view on life but this all
-					changed when i joined college and pursued what i liked,
-					Computer Science. I started excelling to the point where i
-					discovered that doing what you love makes success a joke and
-					life a game so i have been playing since 2018. I dived
-					deeper into computer science topics which intoduced me to
-					code, the primary factor upon which technolgy is built upon
-					and l loved code ever since. I am fueld with my passion for
-					understanding systems and how they were built, how they work
-					and their intended purpose. I consider learning as a life
-					long activity because if you are not growing you are
-					basically decaying. My hunger for knowledge and
-					determination to apply it drove me to teach myself on my
-					path to make real change with actual products. I learned through
-					curiosity how to build software and i have never looked back.
-					Sure there are times i feel like bashing the machine on the
-					wall because i forgot some closing tag or a comma but i
-					always come through and the feeling of success never gets
-					old. I belive in mindfullness, creating your own meaning and
-					being fully engaged with whatever i am doing and has led me to the
-					habit of spending most of my day infront of screens expect
-					when i am not cycling or in the pitch. I belive i have found my
-					meaning in building software. Apart from my full time
-					commitments i takle interesting freelance projects for
-					clients facing different challenges that can be solved by
-					technology.
+					Conventional education did not serve me as i expected, but
+					this all changed when i joined college and pursued what i
+					liked, Computer Science. I started excelling to the point
+					where i discovered that doing what you love makes success a
+					joke and life a game so i have been playing since 2018. I
+					dived deeper into computer science topics which introduced
+					me to code, the primary factor upon which technolgy is built
+					upon and l loved to code ever since. I am fueled by my
+					passion for understanding systems and how they were built,
+					how they work and their intended purpose. I consider
+					learning as a life long activity because if you are not
+					growing you are basically decaying. My hunger for knowledge
+					and determination to apply it drove me to teach myself on my
+					path to make real change with actual products. I learned
+					through curiosity how to build software and i have never
+					looked back. Sure there are frustrating moments in the
+					process but i always come through and the feeling of success
+					never gets old. I belive in mindfullness, creating your own
+					meaning and being fully engaged with whatever i am doing and
+					has led me to the habit of spending most of my day infront
+					of screens. I believe i have found my meaning in building
+					software. Apart from my full time commitments i takle
+					interesting freelance projects for clients facing different
+					challenges that can be solved by technology.
 					<Typography variant="h6">
 						Reach out to <a href="#!">lumungep12@gmail.com</a> to
 						connect.
@@ -126,9 +115,10 @@ const About = () => {
 					Building without getting my hands dirty
 				</Typography>
 				<Typography variant="h5">
-					I love to create, from thinking of it to actual conception of ideas. I love being hands on on
-					projects both personal and commercial. For me programming is a way to channel my creativity and have it
-					impact peoples live positively.
+					I love to create, from thinking of it to actual conception
+					of ideas. I love being hands on on projects both personal
+					and commercial. For me programming is a way to channel my
+					creativity and have it impact peoples live positively.
 				</Typography>
 			</div>
 			<Container classname={classes.tookit}>
@@ -329,7 +319,7 @@ const About = () => {
 							Postman/ThunderClient/Curl
 						</Typography>
 					</Grid>
-					
+
 					<Grid item sm={3} xs={6} className={classes.tool}>
 						<span className={classes.icon}>
 							<DiLinux />

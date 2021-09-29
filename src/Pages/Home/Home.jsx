@@ -6,7 +6,7 @@ import useStyles from "./styles.js";
 
 const Home = () => {
 	const classes = useStyles();
-	const [cases, setCases] = useState(data.caseStudies)
+	const [cases] = useState(data.caseStudies)
 
 	return (
 		<Container>

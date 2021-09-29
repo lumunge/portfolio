@@ -5,9 +5,21 @@ export default makeStyles((theme) => ({
 		backgroundColor: "#17202a",
 		padding: "10px 0",
 	},
+	logo: {
+		color: "#fff",
+		textDecoration: "none",
+		"&:hover": {
+			color: "#f39c12",
+			transition: "all .5s ease-in-out",
+		},
+	},
 	navLinks: {
 		color: "#fff",
 		textTransform: "capitalize",
+		"&:hover": {
+			color: "#f39c12",
+			transition: "all .5s ease-in-out",
+		},
 	},
 	toolBar: {
 		display: "flex",

@@ -64,18 +64,19 @@ const Home = () => {
 							Questions First. Before starting to write code i
 							always make sure that we understand whatever we are
 							trying to accomplish by asking the rights questions.
-							This stage entails meetings, competitive analysis,
-							solutions exploration and requirements gathering
+							This stage entails alot of meetings, competitive
+							analysis, solutions exploration and requirements
+							gathering.
 						</Typography>
 					</div>
 					<div>
 						<Typography variant="h4">02. Strategy</Typography>
 						<Typography variant="h6">
-							Goals. Here we learn as much about your project,
-							brand, customers/users. We understand the problem we
-							are trying to solve, what a win will look like. From
-							that we come up with a plan to move forward and i
-							present you with all deliverables
+							Goals. Here I learn as much about your project,
+							brand, customers/users. I try to understand the
+							problem i am trying to solve, what a win will look
+							like. From that I come up with a plan to move
+							forward and I present you with all deliverables.
 						</Typography>
 					</div>
 					<div>
@@ -83,9 +84,9 @@ const Home = () => {
 						<Typography variant="h6">
 							Look and Feel. At the end of this phase you will
 							have a clear idea of the look and feel of your site.
-							As part of this process we shal incorporate elements
+							As part of this process I shall incorporate elements
 							such as company logo and colors matching you
-							identity as a business or person
+							identity as a business or person.
 						</Typography>
 					</div>
 					<div>
@@ -102,21 +103,22 @@ const Home = () => {
 					<div>
 						<Typography variant="h4">05. Testing</Typography>
 						<Typography variant="h6">
-							Does it Work?. We put your website through a series
-							of test on a development server to see if all
+							Does it Work?. I put your website through a series
+							of tests on a development server to see if all
 							features are working as they should. Testing will be
-							critial as issues are inevtable and need to be
+							critial as issues are inevitable and need to be
 							addressed before the site goes live.
 						</Typography>
 					</div>
 					<div>
 						<Typography variant="h4">06. Launch</Typography>
 						<Typography variant="h6">
-							Success. The day has come . In this phase i present
-							you with the final product over coffee. We test the
-							functionality of the system with some of your users
-							and determine wheather it addresses their needs and
-							making small adjustments here and there.
+							Success. The day has come . In this phase I present
+							you with the final product over a cup of coffee. We
+							test the functionality of the system with some of
+							your users and determine wheather it addresses their
+							needs and making small adjustments here and there to
+							perfection.
 						</Typography>
 					</div>
 				</div>

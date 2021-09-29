@@ -12,8 +12,8 @@ const Footer = () => {
         <div className={classes.footer}>
         <BottomNavigation>
         <div className={classes.socials}>
-            <a href="https://github.com/lumungep12"><BottomNavigationAction icon={<GitHubIcon />} /></a>
-            <a href="https://www.linkedin.com/in/lumunge-erick-b3521b19a/"><BottomNavigationAction icon={<LinkedInIcon />} /></a>
+            <a href="https://github.com/lumunge"><BottomNavigationAction icon={<GitHubIcon />} /></a>
+            <a href="https://www.linkedin.com/in/lumunge/"><BottomNavigationAction icon={<LinkedInIcon />} /></a>
             <a href="lumungep12@gmail.com"><BottomNavigationAction icon={<MailIcon />} /></a>
         </div>
       </BottomNavigation>

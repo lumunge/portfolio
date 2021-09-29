@@ -57,7 +57,8 @@ const Navbar = () => {
 				>
 					<MenuItem onClick={handleClose} component={Link} to="/work">work</MenuItem>
 					<MenuItem onClick={handleClose} component={Link} to="/about">about</MenuItem>
-					<MenuItem onClick={handleClose}>contact</MenuItem>
+					<MenuItem onClick={handleClose} component={Link} to="/resources">resources</MenuItem>
+					<MenuItem onClick={handleClose} component={Link} to="/contact">contact</MenuItem>
 				</Menu>
 				</div>
 			</div>

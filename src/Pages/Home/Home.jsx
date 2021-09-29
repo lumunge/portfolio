@@ -1,9 +1,12 @@
+import { useState } from "react";
+import data from './data.json';
 import { Link } from "react-router-dom";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const Home = () => {
 	const classes = useStyles();
+	const [cases, setCases] = useState(data.caseStudies)
 
 	return (
 		<Container>
@@ -126,7 +129,35 @@ const Home = () => {
 
 			<div>
 				<Typography>case studies</Typography>
-				<Paper elevation={3} className={classes.paper}>
+				{cases.map((study, index) => (
+					<Paper elevation={3} className={classes.paper}>
+					<div className={classes.projectContainer}>
+						<img
+							className={classes.projectImage}
+							src="https://user-images.githubusercontent.com/58906058/118359364-94a9fe80-b572-11eb-9f3c-78328e3f868e.png"
+							alt="project"
+						/>
+					</div>
+					<div className={classes.details}>
+						<Typography variant="button">
+							{study.tags}
+						</Typography>
+						<br />
+						<br />
+						<Typography variant="h5">{study.title}</Typography>
+						<Typography variant="subtitle">
+							{study.description}
+						</Typography>
+						<br />
+						<br />
+						<br />
+						<Button variant="contained">View Site</Button>
+						{"  "}
+						<Button variant="contained">Github</Button>
+					</div>
+				</Paper>
+				))}
+				{/* <Paper elevation={3} className={classes.paper}>
 					<div className={classes.projectContainer}>
 						<img
 							className={classes.projectImage}
@@ -215,7 +246,7 @@ const Home = () => {
 						{"  "}
 						<Button variant="contained">Github</Button>
 					</div>
-				</Paper>
+				</Paper> */}
 				<div className={classes.more}>
 					<Button
 						variant="contained"

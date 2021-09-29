@@ -4,7 +4,7 @@ export default makeStyles(() => ({
 	intro: {
 		display: "flex",
 		alignItems: "center",
-		margin: "6rem 0 2rem 0",
+		margin: "7rem 0 2rem 0",
 		height: "70vh",
 	},
 	about: {
@@ -103,5 +103,11 @@ export default makeStyles(() => ({
 			display: "grid",
 			gridTemplateColumns: "repeat(1, 1fr)",
 		},
+	},
+	more: {
+		width: "100%",
+		display: "flex",
+		justifyContent: "center",
+		padding: "2rem 0",
 	},
 }));

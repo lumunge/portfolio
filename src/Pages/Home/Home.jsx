@@ -19,7 +19,7 @@ const Home = () => {
 						with 3 years developing software from simple 'hello
 						world' programs to complex multi-user web applications.
 						He has a background in computer science, and loves
-						sports such as cycling and football.
+						cycling, chess and solving puzzles.
 					</Typography>
 				</div>
 				<div>
@@ -136,6 +136,36 @@ const Home = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="button">
+							frontend devt / backend development / e-commerce /
+						</Typography>
+						<br />
+						<br />
+						<Typography variant="h5">Bakery Shop</Typography>
+						<Typography variant="subtitle">
+							A client wanted to scale her business to reach a
+							wider range of clientel and the e-coomerce store was
+							more than expected. Clients dont have to leave their
+							comfort to make a booking and the baker has time to
+							focus fully on her creative work fully.
+						</Typography>
+						<br />
+						<br />
+						<br />
+						<Button variant="contained">View Site</Button>
+						{"  "}
+						<Button variant="contained">Github</Button>
+					</div>
+				</Paper>
+				<Paper elevation={3} className={classes.paper}>
+					<div className={classes.projectContainer}>
+						<img
+							className={classes.projectImage}
+							src="https://user-images.githubusercontent.com/58906058/118359364-94a9fe80-b572-11eb-9f3c-78328e3f868e.png"
+							alt="project"
+						/>
+					</div>
+					<div className={classes.details}>
+						<Typography variant="button">
 							frontend devt / web design / psd conversion
 						</Typography>
 						<br />
@@ -151,7 +181,9 @@ const Home = () => {
 						<br />
 						<br />
 						<br />
-						<Button variant="contained">View Case Study</Button>
+						<Button variant="contained">View Site</Button>
+						{"  "}
+						<Button variant="contained">Github</Button>
 					</div>
 				</Paper>
 				<Paper elevation={3} className={classes.paper}>
@@ -179,11 +211,21 @@ const Home = () => {
 						<br />
 						<br />
 						<br />
-						<Button variant="contained">View Case Study</Button>
+						<Button variant="contained">View Site</Button>
+						{"  "}
+						<Button variant="contained">Github</Button>
 					</div>
 				</Paper>
-
-				<Button>More Cases</Button>
+				<div className={classes.more}>
+					<Button
+						variant="contained"
+						className={classes.navLinks}
+						component={Link}
+						to="/work"
+					>
+						More
+					</Button>
+				</div>
 			</div>
 			<div className={classes.contact}>
 				<Typography variant="h4">LET'S WORK TOGETHER</Typography>

@@ -6,6 +6,16 @@ export default makeStyles(() => ({
 		alignItems: "center",
 		margin: "7rem 0 2rem 0",
 		height: "70vh",
+		"@media (max-width: 780px)": {
+			marginTop: "8rem",
+		},
+	},
+	title: {
+		textAlign: "center",
+		color: "#f39c12",
+		"@media (max-width: 780px)": {
+			fontSize: "2rem",
+		},
 	},
 	about: {
 		lineHeight: "3rem",
@@ -28,6 +38,9 @@ export default makeStyles(() => ({
 		"@media (max-width: 780px)": {
 			display: "flex",
 			flexDirection: "column",
+			justifyContent: "center",
+			height: "100%",
+			paddingBottom: "2rem",
 		},
 	},
 	details: {
@@ -35,11 +48,15 @@ export default makeStyles(() => ({
 		width: "50%",
 		"@media (max-width: 780px)": {
 			padding: "1rem",
+			width: "100%",
 		},
 	},
 	imgContainer: {
 		width: "50%",
 		height: "350px",
+		"@media (max-width: 780px)": {
+			width: "100%",
+		},
 	},
 	projectImage: {
 		height: "100%",
@@ -79,11 +96,6 @@ export default makeStyles(() => ({
 	start: {
 		marginRight: "2rem",
 	},
-
-	title: {
-		textAlign: "center",
-	},
-
 	contact: {
 		display: "flex",
 		flexDirection: "column",
@@ -109,5 +121,9 @@ export default makeStyles(() => ({
 		display: "flex",
 		justifyContent: "center",
 		padding: "2rem 0",
+	},
+	link: {
+		textDecoration: "none",
+		color: "#333",
 	},
 }));

@@ -13,7 +13,7 @@ const Home = () => {
 			<div className={classes.intro}>
 				<div>
 					<Typography>whoami</Typography>
-					<Typography variant="h2">Software Developer</Typography>
+					<Typography variant="h2" className={classes.title}>Software Developer</Typography>
 					<Typography className={classes.about} variant="h5">
 						lumunge is a{" "}
 						<span className={classes.highlights}>
@@ -153,102 +153,12 @@ const Home = () => {
 						<br />
 						<br />
 						<br />
-						<Button variant="contained">View Site</Button>
+						<Button variant="contained"><a href={study.url} rel="noreferrer" target="_blank" className={classes.link}>View Site</a></Button>
 						{"  "}
-						<Button variant="contained">Github</Button>
+						<Button variant="contained"><a href={study.github} rel="noreferrer" target="_blank" className={classes.link}>Source</a></Button>
 					</div>
 				</Paper>
 				))}
-				{/* <Paper elevation={3} className={classes.paper}>
-					<div className={classes.projectContainer}>
-						<img
-							className={classes.projectImage}
-							src="https://user-images.githubusercontent.com/58906058/118359364-94a9fe80-b572-11eb-9f3c-78328e3f868e.png"
-							alt="project"
-						/>
-					</div>
-					<div className={classes.details}>
-						<Typography variant="button">
-							frontend devt / backend development / e-commerce /
-						</Typography>
-						<br />
-						<br />
-						<Typography variant="h5">Bakery Shop</Typography>
-						<Typography variant="subtitle">
-							A client wanted to scale her business to reach a
-							wider range of clientel and the e-coomerce store was
-							more than expected. Clients dont have to leave their
-							comfort to make a booking and the baker has time to
-							focus fully on her creative work fully.
-						</Typography>
-						<br />
-						<br />
-						<br />
-						<Button variant="contained">View Site</Button>
-						{"  "}
-						<Button variant="contained">Github</Button>
-					</div>
-				</Paper>
-				<Paper elevation={3} className={classes.paper}>
-					<div className={classes.projectContainer}>
-						<img
-							className={classes.projectImage}
-							src="https://user-images.githubusercontent.com/58906058/118359364-94a9fe80-b572-11eb-9f3c-78328e3f868e.png"
-							alt="project"
-						/>
-					</div>
-					<div className={classes.details}>
-						<Typography variant="button">
-							frontend devt / web design / psd conversion
-						</Typography>
-						<br />
-						<br />
-						<Typography variant="h5">Fiasco Restaurant</Typography>
-						<Typography variant="subtitle">
-							We make alot of decisions in a single day and the
-							more decisions we make the worse our decision making
-							becomes. This site solves that but making your
-							decision making easier by showcasing what the
-							restaurant has to offer.
-						</Typography>
-						<br />
-						<br />
-						<br />
-						<Button variant="contained">View Site</Button>
-						{"  "}
-						<Button variant="contained">Github</Button>
-					</div>
-				</Paper>
-				<Paper elevation={3} className={classes.paper}>
-					<div className={classes.projectContainer}>
-						<img
-							className={classes.projectImage}
-							src="https://user-images.githubusercontent.com/58906058/122705843-064a2c00-d246-11eb-9854-03ea3e61bcab.png"
-							alt="project"
-						/>
-					</div>
-					<div className={classes.details}>
-						<Typography variant="button">
-							frontend devt / recipes / apis
-						</Typography>
-						<br />
-						<br />
-						<Typography variant="h5">Chief-Chef</Typography>
-						<Typography variant="subtitle">
-							Dont know what to cook for a loved one or trying
-							something new in the kitchen. This app is your
-							friend. It offers over 300 recipes with
-							instructions, ingredients and a video tutorial on
-							how to prepare a dish. Have a blast.
-						</Typography>
-						<br />
-						<br />
-						<br />
-						<Button variant="contained">View Site</Button>
-						{"  "}
-						<Button variant="contained">Github</Button>
-					</div>
-				</Paper> */}
 				<div className={classes.more}>
 					<Button
 						variant="contained"

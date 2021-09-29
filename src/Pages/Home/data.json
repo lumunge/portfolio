@@ -3,18 +3,24 @@
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/ecommerce.png",
 			"tags": "frontend development / backend development / ecommerce",
+			"url": "https://youthful-turing-553565.netlify.app/ ",
+			"github": "https://github.com/lumunge/E_Commerce-Bakery-Shop",
 			"title": "Bakery Shop",
 			"description": "A client wanted to scale her business to reach a wider range of clientel and the e-coomerce store was more than expected. Clients dont have to leave their comfort to make a booking and the baker has time to focus fully on her creative work fully."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/fiascoRestaurant.png",
 			"tags": "frontend development / psd conversion / web design",
+			"url": "https://fiasco-restaurant.vercel.app/ ",
+			"github": "https://github.com/lumunge/Fiasco-Restaurant",
 			"title": "Fiasco Restaurant",
 			"description": "We make alot of decisions in a single day and the more decisions we make the worse our decision making becomes. This site solves that but making your decision making easier by showcasing what the restaurant has to offer."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",
 			"tags": "frontend development / recipes / API",
+			"url": "https://lumunge.github.io/Chief-Chef/ ",
+			"github": "https://github.com/lumunge/Chief-Chef",
 			"title": "Chief Chef",
 			"description": "Dont know what to cook for a loved one or trying something new in the kitchen. This app is your friend. It offers over 300 recipes with instructions, ingredients and a video tutorial on how to prepare a dish. Have a blast."
 		}

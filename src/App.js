@@ -1,28 +1,28 @@
-import "./index.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 // components
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 // pages
 import Home from "./Pages/Home/Home";
 import Work from "./Pages/Work/Work";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
-import Footer from "./Components/Footer/Footer";
 import Resources from "./Pages/Resources/Resources";
+import "./index.css";
 
 const App = () => {
 	return (
-		<BrowserRouter>
+		<div className="App">
 			<Navbar />
 			<Switch>
-				<Route path="/" exact component={Home} />
-				<Route path="/work" component={Work} />
-				<Route path="/about" component={About} />
-				<Route path="/contact" component={Contact} />
-				<Route path="/resources" component={Resources} />
+				<Route exact path="/" component={Home} />
+				<Route exact path="/work" component={Work} />
+				<Route exact path="/about" component={About} />
+				<Route exact path="/contact" component={Contact} />
+				<Route exact path="/resources" component={Resources} />
 			</Switch>
 			<Footer />
-		</BrowserRouter>
+		</div>
 	);
 };
 

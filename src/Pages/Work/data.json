@@ -1,0 +1,28 @@
+{
+	"caseStudies": [
+		{
+			"image": "",
+			"tags": "frontend development / API / cocktails",
+			"url": "https://elated-volhard-88e9b3.netlify.app/",
+			"github": "https://github.com/lumunge/Cocktailer",
+			"title": "Cocktailer",
+			"description": ""
+		},
+		{
+			"image": "",
+			"tags": "frontend development / psd conversion / web design / real-estate",
+			"url": "https://lumunge.github.io/Real-Estate-Website/",
+			"github": "https://github.com/lumunge/Real-Estate-Website",
+			"title": "Evero Real Estate",
+			"description": ""
+		},
+		{
+			"image": "",
+			"tags": "frontend development / movies / API / social sharing",
+			"url": "https://gallant-albattani-ce1704.netlify.app/",
+			"github": "https://github.com/lumunge/Movie-App",
+			"title": "Movie App",
+			"description": ""
+		}
+	]
+}

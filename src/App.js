@@ -1,5 +1,5 @@
 import "./index.css";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 // components
 import Navbar from "./Components/Navbar/Navbar";
 // pages
@@ -12,7 +12,7 @@ import Resources from "./Pages/Resources/Resources";
 
 const App = () => {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Navbar />
 			<Switch>
 				<Route path="/" exact component={Home} />
@@ -22,7 +22,7 @@ const App = () => {
 				<Route path="/resources" component={Resources} />
 			</Switch>
 			<Footer />
-		</HashRouter>
+		</BrowserRouter>
 	);
 };
 

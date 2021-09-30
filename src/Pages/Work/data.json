@@ -1,7 +1,7 @@
 {
 	"caseStudies": [
 		{
-			"image": "",
+			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/cocktailer.png",
 			"tags": "frontend development / API / cocktails",
 			"url": "https://elated-volhard-88e9b3.netlify.app/",
 			"github": "https://github.com/lumunge/Cocktailer",
@@ -17,7 +17,7 @@
 			"description": ""
 		},
 		{
-			"image": "",
+			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/movieApp.png",
 			"tags": "frontend development / movies / API / social sharing",
 			"url": "https://gallant-albattani-ce1704.netlify.app/",
 			"github": "https://github.com/lumunge/Movie-App",

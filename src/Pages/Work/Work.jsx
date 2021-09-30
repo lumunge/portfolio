@@ -9,7 +9,7 @@ const Work = () => {
 
 	return (
 		<div className={classes.container}>
-			<Typography variant="caption">More Case studies</Typography>
+			<Typography variant="h4" className={classes.heading}>More Case studies</Typography>
             <Container>
             {cases.map((study, index) => (
 					<Paper elevation={3} className={classes.paper} key={index}>

@@ -24,7 +24,10 @@ const Navbar = () => {
 		<AppBar position="fixed" className={classes.navBar}>
 			<Toolbar className={classes.toolBar}>
 				<div>
-                <Typography className={classes.logo} variant="h6" component={Link} to="/">lumunge</Typography>
+				<Button className={classes.navLinks} component={Link} to="/">
+					lumunge
+				</Button>
+                {/* <Typography className={classes.logo} variant="h6" component={Link} to="/">lumunge</Typography> */}
 				</div>
 				<div>
                 <Button className={classes.navLinks} component={Link} to="/work">

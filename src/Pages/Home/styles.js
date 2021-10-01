@@ -126,4 +126,8 @@ export default makeStyles(() => ({
 		textDecoration: "none",
 		color: "#333",
 	},
+	caption: {
+		color: "#f39c12",
+		paddingBottom: "1rem",
+	},
 }));

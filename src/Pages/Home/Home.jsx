@@ -1,19 +1,21 @@
 import { useState } from "react";
-import data from './data.json';
+import data from "./data.json";
 import { Link } from "react-router-dom";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const Home = () => {
 	const classes = useStyles();
-	const [cases] = useState(data.caseStudies)
+	const [cases] = useState(data.caseStudies);
 
 	return (
 		<Container>
 			<div className={classes.intro}>
 				<div>
-					<Typography>whoami</Typography>
-					<Typography variant="h2" className={classes.title}>Software Developer</Typography>
+					<Typography className={classes.caption}>whoami</Typography>
+					<Typography variant="h2" className={classes.title}>
+						Software Developer
+					</Typography>
 					<Typography className={classes.about} variant="h5">
 						lumunge is a{" "}
 						<span className={classes.highlights}>
@@ -36,7 +38,7 @@ const Home = () => {
 			<div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>
-						<Typography>workflow</Typography>
+						<Typography className={classes.caption}>my workflow</Typography>
 						<Typography variant="h2">
 							Development Process
 						</Typography>
@@ -49,7 +51,14 @@ const Home = () => {
 					</div>
 					<div className={classes.cta2}>
 						<Button variant="contained" className={classes.start}>
-							Start a project
+							<a
+								href="https://forms.gle/tpUzNEhPSmHneKUo6"
+								className={classes.link}
+								target="_blank"
+								rel="noreferrer"
+							>
+								Start a project
+							</a>
 						</Button>
 						<Button
 							variant="contained"
@@ -128,36 +137,60 @@ const Home = () => {
 			</div>
 
 			<div>
-				<Typography>case studies</Typography>
+				<Typography className={classes.caption}>problems solved</Typography>
+				<Typography variant="h2">Case Studies</Typography>
+
 				{cases.map((study, index) => (
 					<Paper elevation={3} className={classes.paper}>
-					<div className={classes.imgContainer}>
-						<a href={study.image} rel="noreferrer" target="_blank">
-						<img
-							className={classes.projectImage}
-							src={study.image}
-							alt="project"
-						/>
-						</a>
-					</div>
-					<div className={classes.details}>
-						<Typography variant="button">
-							{study.tags}
-						</Typography>
-						<br />
-						<br />
-						<Typography variant="h5">{study.title}</Typography>
-						<Typography variant="subtitle">
-							{study.description}
-						</Typography>
-						<br />
-						<br />
-						<br />
-						<Button variant="contained"><a href={study.url} rel="noreferrer" target="_blank" className={classes.link}>View Site</a></Button>
-						{"  "}
-						<Button variant="contained"><a href={study.github} rel="noreferrer" target="_blank" className={classes.link}>Source</a></Button>
-					</div>
-				</Paper>
+						<div className={classes.imgContainer}>
+							<a
+								href={study.image}
+								rel="noreferrer"
+								target="_blank"
+							>
+								<img
+									className={classes.projectImage}
+									src={study.image}
+									alt="project"
+								/>
+							</a>
+						</div>
+						<div className={classes.details}>
+							<Typography variant="button">
+								{study.tags}
+							</Typography>
+							<br />
+							<br />
+							<Typography variant="h5">{study.title}</Typography>
+							<Typography variant="subtitle">
+								{study.description}
+							</Typography>
+							<br />
+							<br />
+							<br />
+							<Button variant="contained">
+								<a
+									href={study.url}
+									rel="noreferrer"
+									target="_blank"
+									className={classes.link}
+								>
+									View Site
+								</a>
+							</Button>
+							{"  "}
+							<Button variant="contained">
+								<a
+									href={study.github}
+									rel="noreferrer"
+									target="_blank"
+									className={classes.link}
+								>
+									Source
+								</a>
+							</Button>
+						</div>
+					</Paper>
 				))}
 				<div className={classes.more}>
 					<Button

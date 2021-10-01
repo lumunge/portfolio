@@ -1,4 +1,4 @@
-import { Typography, Container, Paper, Grid } from "@material-ui/core";
+import { Typography, Paper, Grid } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const Resources = () => {
@@ -62,7 +62,8 @@ const Resources = () => {
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
-						<Typography variant="h4">Courses</Typography>
+						<Typography variant="h4">Courses & Learning Paths</Typography>
+                            <a target="_blank" rel="noreferrer" href="https://leetcode.com/study-plan/">DSA</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

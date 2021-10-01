@@ -1,7 +1,7 @@
 import { useState } from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
-import { Container, Button, Paper, Typography } from "@material-ui/core";
+import { Container, Button, Paper, Typography, Grid } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const Home = () => {
@@ -9,9 +9,9 @@ const Home = () => {
 	const [cases] = useState(data.caseStudies);
 
 	return (
-		<Container>
-			<div className={classes.intro}>
-				<div>
+		<Container className={classes.mainContainer}>
+			<Grid container spacing={4} className={classes.intro}>
+				<Grid item xs={12} md={6} className={classes.introInfo}>
 					<Typography className={classes.caption}>whoami</Typography>
 					<Typography variant="h2" className={classes.title}>
 						Software Developer
@@ -26,15 +26,15 @@ const Home = () => {
 						He has a background in computer science, and loves
 						cycling, chess and solving puzzles.
 					</Typography>
-				</div>
-				<div>
+				</Grid>
+				<Grid item xs={12} md={6} className={classes.profile}>
 					<img
 						className={classes.profileImg}
-						src="https://images.unsplash.com/photo-1602992708529-c9fdb12905c9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-						alt="lumunge"
+						src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"
+						alt="lumunge_image"
 					/>
-				</div>
-			</div>
+				</Grid>
+			</Grid>
 			<div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>

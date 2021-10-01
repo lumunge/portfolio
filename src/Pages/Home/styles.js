@@ -1,13 +1,30 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
+	mainContainer: {
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+	},
 	intro: {
 		display: "flex",
 		alignItems: "center",
-		margin: "7rem 0 2rem 0",
-		height: "70vh",
+		height: "100vh",
+		width: "100%",
 		"@media (max-width: 780px)": {
-			marginTop: "8rem",
+			marginTop: "3rem",
+			width: "100%",
+		},
+	},
+	introInfo: {
+		width: "50%",
+		"@media (max-width: 780px)": {
+			display: "flex",
+			flexDirection: "column",
+			justifyContent: "center",
+			width: "100%",
+			backgroundColor: "rgba(0, 0, 0, 0.7)",
 		},
 	},
 	title: {
@@ -20,10 +37,23 @@ export default makeStyles(() => ({
 	about: {
 		lineHeight: "3rem",
 	},
+	profile: {
+		width: "50%",
+		height: "500px",
+		"@media (max-width: 768px)": {
+			position: "absolute",
+			zIndex: "-999",
+			width: "100%",
+			left: "50%",
+			marginLeft: "-50%",
+		},
+	},
 	profileImg: {
-		borderRadius: "10%",
+		width: "100%",
+		height: "120%",
+		borderRadius: "50%",
 		"@media (max-width: 780px)": {
-			display: "none",
+			// display: "none",
 		},
 	},
 	highlights: {

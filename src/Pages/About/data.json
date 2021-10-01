@@ -1,0 +1,80 @@
+{
+	"skills": [
+		{
+			"name": "html5",
+			"url": "https://cdn-urls-png.flaturl.com/512/174/174854.png"
+		},
+		{
+			"name": "css3",
+			"url": "https://cdn-urls-png.flaturl.com/512/732/732190.png"
+		},
+		{
+			"name": "material ui",
+			"url": "FaMaxcdn"
+		},
+		{
+			"name": "boostrap",
+			"url": "DiHtml5"
+		},
+		{
+			"name": "vanilla js",
+			"url": "DiJavascript1"
+		},
+		{
+			"name": "react js",
+			"url": "FaReact"
+		},
+		{
+			"name": "next js",
+			"url": "FaNeos"
+		},
+		{
+			"name": "node js",
+			"url": "DiNodejsSmall"
+		},
+		{
+			"name": "php",
+			"url": "DiHtml5"
+		},
+		{
+			"name": "python",
+			"url": "DiPython"
+		},
+		{
+			"name": "django",
+			"url": "DiPython"
+		},
+		{
+			"name": "mongo db",
+			"url": "DiMongodb"
+		},
+		{
+			"name": "sql db",
+			"url": "DiMysql"
+		},
+		{
+			"name": "Firebase",
+			"url": "DiFirebase"
+		},
+		{
+			"name": "git & github",
+			"url": "DiGithubBadge"
+		},
+		{
+			"name": "npm",
+			"url": "DiNpm"
+		},
+		{
+			"name": "linux & terminal",
+			"url": "DiLinux"
+		},
+		{
+			"name": "seo and accessibility",
+			"url": "FaUniversalAccess"
+		},
+		{
+			"name": "responsive design",
+			"url": "DiResponsive"
+		}
+	]
+}

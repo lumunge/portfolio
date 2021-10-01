@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Container, Typography, Button, Paper, Grid } from "@material-ui/core";
+import data from "./data.json";
 // icons
 import { FaReact, FaUniversalAccess, FaMaxcdn, FaNeos } from "react-icons/fa";
 import {
@@ -24,10 +26,12 @@ import useStyles from "./styles.js";
 const About = () => {
 	const classes = useStyles();
 
+	const [skillset] = useState(data.skills);
+
 	return (
 		<Container className={classes.about}>
 			<div className={classes.intro}>
-				<Typography variant="caption">about me</Typography>
+				<Typography className={classes.caption}>about me</Typography>
 				<br />
 				<br />
 				<Typography variant="h3">Nice to meet you</Typography>
@@ -46,7 +50,7 @@ const About = () => {
 			</div>
 
 			<div className={classes.story}>
-				<Typography variant="caption">Summary</Typography>
+				<Typography className={classes.caption}>summary</Typography>
 				<br />
 				<br />
 				<Typography variant="h3">
@@ -72,7 +76,7 @@ const About = () => {
 				</Typography>
 			</div>
 			<div className={classes.story}>
-				<Typography variant="caption">Background</Typography>
+				<Typography className={classes.caption}>background</Typography>
 				<br />
 				<br />
 				<Typography variant="h3">Following my Passion</Typography>
@@ -102,13 +106,20 @@ const About = () => {
 					interesting freelance projects for clients facing different
 					challenges that can be solved by technology.
 					<Typography variant="h6">
-						Reach out to <a href="#!">lumungep12@gmail.com</a> to
-						connect.
+						<a
+							href="https://forms.gle/tpUzNEhPSmHneKUo6"
+							className={classes.reachOut}
+							target="_blank"
+							rel="noreferrer"
+						>
+							Reach out
+						</a>{" "}
+						to connect with me.
 					</Typography>
 				</Typography>
 			</div>
 			<div className={classes.story}>
-				<Typography variant="caption">Why Code?</Typography>
+				<Typography className={classes.caption}>why i code?</Typography>
 				<br />
 				<br />
 				<Typography variant="h3">
@@ -122,11 +133,29 @@ const About = () => {
 				</Typography>
 			</div>
 			<Container classname={classes.tookit}>
-				<Typography variant="caption">What do i know?</Typography>
+				<Typography className={classes.caption}>
+					what do i know?
+				</Typography>
 				<br />
 				<br />
 				<Typography variant="h3">Skillset</Typography>
 				<Grid container spacing={3} className={classes.skillset}>
+				{skillset.map((skill, index) => (
+					<Grid item sm={3} xs={6} className={classes.tool}>
+					<div className={classes.icon}>
+						<img className={classes.iconImg} src={skill.url} alt={skill.name} />
+					</div>
+					<Typography
+						variant="caption"
+						component="p"
+						className={classes.iconText}
+					>
+						{skill.name}
+					</Typography>
+				</Grid>
+				))}
+				</Grid>
+				{/* <Grid container spacing={3} className={classes.skillset}>
 					<Grid item sm={3} xs={6} className={classes.tool}>
 						<span className={classes.icon}>
 							<DiHtml5 />
@@ -369,10 +398,12 @@ const About = () => {
 							Responsive Design
 						</Typography>
 					</Grid>
-				</Grid>
+				</Grid> */}
 			</Container>
 			<div>
-				<Typography variant="caption">My Principles</Typography>
+				<Typography className={classes.caption}>
+					my principles
+				</Typography>
 				<br />
 				<br />
 				<div className={classes.principles}>
@@ -407,7 +438,15 @@ const About = () => {
 					better.
 				</Typography>
 				<Button variant="contained" className={classes.button}>
-					lumungep12@gmail.com
+					<a
+						href="https://forms.gle/tpUzNEhPSmHneKUo6"
+						className={classes.link}
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						Get Started{" "}
+					</a>
 				</Button>
 			</div>
 		</Container>

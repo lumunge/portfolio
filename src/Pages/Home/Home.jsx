@@ -141,7 +141,7 @@ const Home = () => {
 				<Typography variant="h2">Case Studies</Typography>
 
 				{cases.map((study, index) => (
-					<Paper elevation={3} className={classes.paper}>
+					<Paper elevation={3} className={classes.paper} key={index}>
 						<div className={classes.imgContainer}>
 							<a
 								href={study.image}

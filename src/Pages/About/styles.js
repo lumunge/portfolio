@@ -54,11 +54,27 @@ export default makeStyles(() => ({
 		color: "#f39c12",
 	},
 	icon: {
-		fontSize: "3rem",
+		width: "60px",
+		height: "60px",
 		"&:hover": {
 			color: "#f39c12",
 			transition: "all .4s ease-in-out",
 			cursor: "pointer",
 		},
+	},
+	iconImg: {
+		height: "100%",
+		width: "100%",
+	},
+	reachOut: {
+		color: "#fff",
+	},
+	link: {
+		textDecoration: "none",
+		color: "#333",
+	},
+	caption: {
+		color: "#f39c12",
+		paddingBottom: "1rem",
 	},
 }));

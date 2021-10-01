@@ -2,79 +2,79 @@
 	"skills": [
 		{
 			"name": "html5",
-			"url": "https://cdn-urls-png.flaturl.com/512/174/174854.png"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/html.png"
 		},
 		{
 			"name": "css3",
-			"url": "https://cdn-urls-png.flaturl.com/512/732/732190.png"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/css.png"
 		},
 		{
 			"name": "material ui",
-			"url": "FaMaxcdn"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/material.png"
 		},
 		{
 			"name": "boostrap",
-			"url": "DiHtml5"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/bootstrap.png"
 		},
 		{
 			"name": "vanilla js",
-			"url": "DiJavascript1"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/javascript.png"
 		},
 		{
 			"name": "react js",
-			"url": "FaReact"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/react.png"
 		},
 		{
 			"name": "next js",
-			"url": "FaNeos"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/next.png"
 		},
 		{
 			"name": "node js",
-			"url": "DiNodejsSmall"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/node.png"
 		},
 		{
 			"name": "php",
-			"url": "DiHtml5"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/php.png"
 		},
 		{
 			"name": "python",
-			"url": "DiPython"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/python.png"
 		},
 		{
 			"name": "django",
-			"url": "DiPython"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/django.png"
 		},
 		{
 			"name": "mongo db",
-			"url": "DiMongodb"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/mongo.png"
 		},
 		{
 			"name": "sql db",
-			"url": "DiMysql"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/sql.png"
 		},
 		{
 			"name": "Firebase",
-			"url": "DiFirebase"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/firebase.png"
 		},
 		{
 			"name": "git & github",
-			"url": "DiGithubBadge"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/git.png"
 		},
 		{
 			"name": "npm",
-			"url": "DiNpm"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/npm.png"
 		},
 		{
 			"name": "linux & terminal",
-			"url": "DiLinux"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/linux.png"
 		},
 		{
 			"name": "seo and accessibility",
-			"url": "FaUniversalAccess"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/seo.png"
 		},
 		{
 			"name": "responsive design",
-			"url": "DiResponsive"
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/responsive.png"
 		}
 	]
 }

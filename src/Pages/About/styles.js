@@ -52,6 +52,7 @@ export default makeStyles(() => ({
 	iconText: {
 		textTransform: "uppercase",
 		color: "#f39c12",
+		paddingTop: "1rem",
 	},
 	icon: {
 		width: "60px",
@@ -65,6 +66,7 @@ export default makeStyles(() => ({
 	iconImg: {
 		height: "100%",
 		width: "100%",
+		// borderRadius: "50%",
 	},
 	reachOut: {
 		color: "#fff",

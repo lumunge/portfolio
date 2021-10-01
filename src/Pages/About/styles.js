@@ -1,12 +1,14 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
-	intro: {
-		textAlign: "center",
+	section: {
+		marginTop: "1rem",
 	},
-	image: {
-		textAlign: "center",
-		padding: "2rem 0",
+	intro: {
+		height: "80vh",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
 	},
 	about: {
 		marginTop: "6rem",

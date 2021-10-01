@@ -1,26 +1,6 @@
 import { useState } from "react";
 import { Container, Typography, Button, Paper, Grid } from "@material-ui/core";
 import data from "./data.json";
-// icons
-import { FaReact, FaUniversalAccess, FaMaxcdn, FaNeos } from "react-icons/fa";
-import {
-	DiHtml5,
-	DiCss3,
-	DiJavascript1,
-	DiNodejsSmall,
-	DiDjango,
-	DiPython,
-	DiResponsive,
-	DiCode,
-	DiGithubBadge,
-	DiVisualstudio,
-	DiLinux,
-	DiNpm,
-	DiFirebase,
-	DiMongodb,
-	DiMysql,
-	DiRequirejs,
-} from "react-icons/di";
 import useStyles from "./styles.js";
 
 const About = () => {
@@ -30,10 +10,9 @@ const About = () => {
 
 	return (
 		<Container className={classes.about}>
-			<div className={classes.intro}>
+			<div className={`${classes.intro} ${classes.section}`}>
+			<div>
 				<Typography className={classes.caption}>about me</Typography>
-				<br />
-				<br />
 				<Typography variant="h3">Nice to meet you</Typography>
 				<Typography variant="h5">
 					I work as a software developer translating your business
@@ -48,11 +27,10 @@ const About = () => {
 					alt="setup"
 				/>
 			</div>
+			</div>
 
-			<div className={classes.story}>
+			<div className={`${classes.story} ${classes.section}`}>
 				<Typography className={classes.caption}>summary</Typography>
-				<br />
-				<br />
 				<Typography variant="h3">
 					Intersection of Code and Business
 				</Typography>
@@ -75,10 +53,8 @@ const About = () => {
 					will be working for us as we sit back and read.
 				</Typography>
 			</div>
-			<div className={classes.story}>
+			<div className={`${classes.story} ${classes.section}`}>
 				<Typography className={classes.caption}>background</Typography>
-				<br />
-				<br />
 				<Typography variant="h3">Following my Passion</Typography>
 				<Typography variant="h5">
 					Conventional education did not serve me as i expected, but
@@ -118,10 +94,8 @@ const About = () => {
 					</Typography>
 				</Typography>
 			</div>
-			<div className={classes.story}>
+			<div className={`${classes.story} ${classes.section}`}>
 				<Typography className={classes.caption}>why i code?</Typography>
-				<br />
-				<br />
 				<Typography variant="h3">
 					Building without getting my hands dirty
 				</Typography>
@@ -132,9 +106,9 @@ const About = () => {
 					creativity and have it impact peoples live positively.
 				</Typography>
 			</div>
-			<div classname={classes.tookit}>
+			<div classname={`${classes.tookit} ${classes.section}`}>
 				<Typography className={classes.caption}>
-					what do i know?
+					what i know?
 				</Typography>
 				<Typography variant="h3">Skillset</Typography>
 				<Grid container spacing={3} className={classes.skillset}>
@@ -154,12 +128,10 @@ const About = () => {
 				))}
 				</Grid>
 			</div>
-			<div>
+			<div className={`${classes.princ} ${classes.section}`}>
 				<Typography className={classes.caption}>
 					my principles
 				</Typography>
-				<br />
-				<br />
 				<div className={classes.principles}>
 					<Paper className={classes.paper}>
 						<Typography variant="h4"> Effectiveness</Typography>

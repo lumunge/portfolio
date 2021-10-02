@@ -1,7 +1,7 @@
 import { useState } from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
-import { Container, Button, Paper, Typography, Grid } from "@material-ui/core";
+import { Container, Button, Paper, Typography } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
 
 	return (
 		<Container className={classes.mainContainer}>
-			<Grid container spacing={4} className={classes.intro}>
-				<Grid item xs={12} md={6} className={classes.introInfo}>
+			<div className={classes.intro}>
+				<div className={classes.introInfo}>
 					<Typography className={classes.caption}>whoami</Typography>
 					<Typography variant="h2" className={classes.title}>
 						Software Developer
@@ -26,20 +26,20 @@ const Home = () => {
 						He has a background in computer science, and loves
 						cycling, chess and solving puzzles.
 					</Typography>
-				</Grid>
-				<Grid item xs={12} md={6} className={classes.profile}>
+				</div>
+				<div item xs={12} md={6} className={classes.profile}>
 					<img
 						className={classes.profileImg}
 						src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"
 						alt="lumunge_image"
 					/>
-				</Grid>
-			</Grid>
+				</div>
+			</div>
 			<div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>
 						<Typography className={classes.caption}>my workflow</Typography>
-						<Typography variant="h2">
+						<Typography variant="h2" className={classes.h2}>
 							Development Process
 						</Typography>
 						<Typography variant="h6">
@@ -138,7 +138,7 @@ const Home = () => {
 
 			<div>
 				<Typography className={classes.caption}>problems solved</Typography>
-				<Typography variant="h2">Case Studies</Typography>
+				<Typography variant="h2" className={classes.h2}>Case Studies</Typography>
 
 				{cases.map((study, index) => (
 					<Paper elevation={3} className={classes.paper} key={index}>

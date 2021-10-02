@@ -12,19 +12,38 @@ export default makeStyles(() => ({
 		alignItems: "center",
 		height: "100vh",
 		width: "100%",
-		"@media (max-width: 780px)": {
-			marginTop: "3rem",
+		"@media (min-width: 300px)": {
+			margin: "3rem 0",
 			width: "100%",
+			height: "100%",
+			display: "flex",
+			flexDirection: "column-reverse",
+			justifyContent: "center",
 		},
+		// "@media (min-width: 768px)": {
+		// },
+		"@media (min-width: 992px)": {
+			margin: "3rem 0",
+			width: "100%",
+			height: "100%",
+			display: "flex",
+			flexDirection: "row",
+		},
+		// "@media (min-width: 1200px)": {
+		// },
 	},
 	introInfo: {
 		width: "50%",
-		"@media (max-width: 780px)": {
+		paddingRight: "3rem",
+		"@media (min-width: 300px)": {
 			display: "flex",
 			flexDirection: "column",
 			justifyContent: "center",
+			alignItems: "center",
+			textAlign: "center",
 			width: "100%",
-			backgroundColor: "rgba(0, 0, 0, 0.7)",
+			padding: "4rem 0",
+			backgroundColor: "rgba(0, 0, 0, 0.3)",
 		},
 	},
 	title: {
@@ -39,22 +58,22 @@ export default makeStyles(() => ({
 	},
 	profile: {
 		width: "50%",
-		height: "500px",
-		"@media (max-width: 768px)": {
-			position: "absolute",
-			zIndex: "-999",
+		height: "600px",
+		padding: "4rem 3rem",
+		"@media (min-width: 300px)": {
 			width: "100%",
-			left: "50%",
-			marginLeft: "-50%",
+			height: "500px",
+			marginBottom: "3rem",
+		},
+		"@media (min-width: 768px)": {
+			width: "70%",
+			height: "500px",
 		},
 	},
 	profileImg: {
 		width: "100%",
 		height: "120%",
 		borderRadius: "50%",
-		"@media (max-width: 780px)": {
-			// display: "none",
-		},
 	},
 	highlights: {
 		backgroundColor: "#f39c12",
@@ -103,14 +122,13 @@ export default makeStyles(() => ({
 		"@media (max-width: 780px)": {
 			display: "flex",
 			flexDirection: "column",
-			justifyContent: "center",
-			alignItems: "center",
 		},
 	},
 	cta1: {
 		width: "50%",
 		"@media (max-width: 780px)": {
 			width: "100%",
+			textAlign: "center",
 		},
 	},
 	cta2: {
@@ -120,7 +138,14 @@ export default makeStyles(() => ({
 		alignItems: "center",
 		"@media (max-width: 780px)": {
 			padding: "2rem 0",
-			width: "70%",
+			width: "100%",
+			display: "flex",
+			alignItems: "center",
+		},
+	},
+	h2: {
+		"@media (max-width: 780px)": {
+			fontSize: "3rem",
 		},
 	},
 	start: {
@@ -135,6 +160,11 @@ export default makeStyles(() => ({
 		backgroundColor: "#f39c12",
 		color: "#17202a",
 		marginBottom: "4rem",
+		width: "100%",
+		"@media (max-width: 780px)": {
+			textAlign: "center",
+			fontSize: "4rem",
+		},
 	},
 	process: {
 		display: "grid",

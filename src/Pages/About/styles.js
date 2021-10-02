@@ -1,8 +1,33 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
-	section: {
-		marginTop: "1rem",
+	section1: {
+		display: "flex",
+		flexDirection: "row",
+		width: "100%",
+		"@media (min-width: 300px)": {
+			display: "flex",
+			flexDirection: "column-reverse",
+			padding: "2rem",
+		},
+		"@media (min-width: 992px)": {
+			display: "flex",
+			flexDirection: "row",
+		},
+	},
+	section2: {
+		display: "flex",
+		width: "100%",
+		height: "100%",
+		"@media (min-width: 300px)": {
+			display: "flex",
+			flexDirection: "column-reverse",
+			padding: "2rem",
+		},
+		"@media (min-width: 992px)": {
+			display: "flex",
+			flexDirection: "row-reverse",
+		},
 	},
 	intro: {
 		height: "80vh",
@@ -29,8 +54,10 @@ export default makeStyles(() => ({
 	},
 	imageContainer: {
 		width: "50%",
-		height: "400px",
+		height: "550px",
+		maxWidth: "500px",
 		"@media (min-width: 300px)": {
+			height: "400px",
 			width: "100%",
 			margin: "0 auto",
 			marginTop: "2rem",
@@ -44,7 +71,24 @@ export default makeStyles(() => ({
 		marginTop: "6rem",
 	},
 	story: {
+		width: "50%",
 		padding: "2rem 0",
+		"@media (min-width: 300px)": {
+			width: "100%",
+			marginRight: "4rem",
+		},
+	},
+	story2: {
+		"@media (min-width: 300px)": {
+			margin: 0,
+		},
+		"@media (min-width: 992px)": {
+			marginLeft: "4rem",
+		},
+	},
+	toolkit: {
+		marginTop: "4rem",
+		backgroundColor: "yellow",
 	},
 	principles: {
 		display: "grid",

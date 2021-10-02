@@ -42,8 +42,7 @@ export default makeStyles(() => ({
 			alignItems: "center",
 			textAlign: "center",
 			width: "100%",
-			padding: "4rem 0",
-			backgroundColor: "rgba(0, 0, 0, 0.3)",
+			padding: 0,
 		},
 	},
 	title: {

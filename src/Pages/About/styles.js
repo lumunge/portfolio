@@ -6,9 +6,39 @@ export default makeStyles(() => ({
 	},
 	intro: {
 		height: "80vh",
+		width: "100%",
 		display: "flex",
-		alignItems: "center",
-		justifyContent: "center",
+		"@media (min-width: 300px)": {
+			height: "100%",
+			width: "100%",
+			display: "flex",
+			flexDirection: "column",
+			padding: "2rem",
+		},
+		"@media (min-width: 992px)": {
+			display: "flex",
+			flexDirection: "row",
+		},
+	},
+	meet: {
+		width: "50%",
+		"@media (min-width: 300px)": {
+			width: "100%",
+			marginRight: "1rem",
+		},
+	},
+	imageContainer: {
+		width: "50%",
+		height: "400px",
+		"@media (min-width: 300px)": {
+			width: "100%",
+			margin: "0 auto",
+			marginTop: "2rem",
+		},
+	},
+	image: {
+		width: "100%",
+		height: "100%",
 	},
 	about: {
 		marginTop: "6rem",

@@ -11,25 +11,30 @@ const About = () => {
 	return (
 		<Container className={classes.about}>
 			<div className={`${classes.intro} ${classes.section}`}>
-			<div>
-				<Typography className={classes.caption}>about me</Typography>
-				<Typography variant="h3">Nice to meet you</Typography>
-				<Typography variant="h5">
-					I work as a software developer translating your business
-					requirements to functioning websites and web applications
-					with a combination of design, business and logic{" "}
-				</Typography>
+				<div className={classes.meet}>
+					<Typography className={classes.caption}>
+						about me
+					</Typography>
+					<Typography variant="h3">Nice to meet you</Typography>
+					<Typography variant="h5">
+						I work as a software developer translating your business
+						requirements to functioning websites and web
+						applications with a combination of design, business and
+						logic{" "}
+					</Typography>
+				</div>
+
+				<div className={classes.imageContainer}>
+					<img
+					className={classes.image}
+						src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGUlMjBzZXR1cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="setup"
+					/>
+				</div>
 			</div>
 
-			<div className={classes.image}>
-				<img
-					src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGUlMjBzZXR1cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-					alt="setup"
-				/>
-			</div>
-			</div>
-
-			<div className={`${classes.story} ${classes.section}`}>
+			<div className={classes.section}>
+				<div className={classes.story}>
 				<Typography className={classes.caption}>summary</Typography>
 				<Typography variant="h3">
 					Intersection of Code and Business
@@ -52,6 +57,14 @@ const About = () => {
 					life for us. Soon we would not have to work and the robots
 					will be working for us as we sit back and read.
 				</Typography>
+				</div>
+				<div className={classes.imageContainer}>
+					<img
+					className={classes.image}
+						src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGUlMjBzZXR1cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="setup"
+					/>
+				</div>
 			</div>
 			<div className={`${classes.story} ${classes.section}`}>
 				<Typography className={classes.caption}>background</Typography>
@@ -112,20 +125,30 @@ const About = () => {
 				</Typography>
 				<Typography variant="h3">Skillset</Typography>
 				<Grid container spacing={3} className={classes.skillset}>
-				{skillset.map((skill, index) => (
-					<Grid item sm={3} xs={6} className={classes.tool} key={index}>
-					<div className={classes.icon}>
-						<img className={classes.iconImg} src={skill.url} alt={skill.name} />
-					</div>
-					<Typography
-						variant="caption"
-						component="p"
-						className={classes.iconText}
-					>
-						{skill.name}
-					</Typography>
-				</Grid>
-				))}
+					{skillset.map((skill, index) => (
+						<Grid
+							item
+							sm={3}
+							xs={6}
+							className={classes.tool}
+							key={index}
+						>
+							<div className={classes.icon}>
+								<img
+									className={classes.iconImg}
+									src={skill.url}
+									alt={skill.name}
+								/>
+							</div>
+							<Typography
+								variant="caption"
+								component="p"
+								className={classes.iconText}
+							>
+								{skill.name}
+							</Typography>
+						</Grid>
+					))}
 				</Grid>
 			</div>
 			<div className={`${classes.princ} ${classes.section}`}>

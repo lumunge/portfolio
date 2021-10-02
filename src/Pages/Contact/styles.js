@@ -28,4 +28,11 @@ export default makeStyles(() => ({
 		margin: "4rem 0",
 		padding: "4rem 0",
 	},
+	button: {
+		marginTop: "1rem",
+	},
+	link: {
+		textDecoration: "none",
+		color: "#333",
+	},
 }));

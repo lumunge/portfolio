@@ -21,29 +21,44 @@ const Contact = () => {
 					Reply within 2 working days
 				</Typography>
 				<br />
-				<Button>lumungep12@gmail.com</Button>
+				<Button className={classes.button} variant="contained">
+					<a
+						href="https://forms.gle/tpUzNEhPSmHneKUo6"
+						className={classes.link}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Let's Talk
+					</a>
+				</Button>
 			</div>
 			<div>
 				<Typography variant="h4">Available Packages</Typography>
 				<div className={classes.packages}>
-				<Paper elevation={3} className={classes.paper}>
+					<Paper elevation={3} className={classes.paper}>
 						<Typography>Basic</Typography>
 						<Typography variant="h6">Interface Design</Typography>
 						<Typography variant="h6">
 							Frontend Development
 						</Typography>
-						
+
 						<Typography variant="h6">Web Hosting</Typography>
-						<Typography variant="h6" >Domain Services</Typography>
+						<Typography variant="h6">Domain Services</Typography>
 						<Typography variant="h6">
 							Maintenance Agreement
 						</Typography>
 						<Typography variant="h6">
 							Search Engine Optimization
 						</Typography>
-						<Typography variant="h6" className={classes.limited}>Analytics</Typography>
-						<Typography variant="h6" className={classes.limited}>Backups</Typography>
-						<Typography variant="h6" className={classes.limited}>Review Rounds</Typography>
+						<Typography variant="h6" className={classes.limited}>
+							Analytics
+						</Typography>
+						<Typography variant="h6" className={classes.limited}>
+							Backups
+						</Typography>
+						<Typography variant="h6" className={classes.limited}>
+							Review Rounds
+						</Typography>
 						<Typography variant="h6" className={classes.limited}>
 							Backend Development
 						</Typography>
@@ -166,16 +181,24 @@ const Contact = () => {
 					If i feel it wont work for you i will tell you and recommend
 					other viable solutions. I only accept project which i
 					believe i can create the maximum value to the business and
-					impact to your users and i assure you, the results are better
-					than the money you will spend.
+					impact to your users and i assure you, the results are
+					better than the money you will spend.
 				</Typography>
 			</div>
-            <div className={classes.contact}>
-				<Typography className={classes.contactTitle} variant="h4">Have an Idea In Mind?</Typography>
-				<Typography variant="body2" className={classes.text}>
-					You can shoot me an email or send a message if urgent
+			<div className={classes.contact}>
+				<Typography className={classes.contactTitle} variant="h4">
+					Have an Idea In Mind?
 				</Typography>
-				<Button variant="contained" className={classes.button}>lumungep12@gmail.com</Button>
+				<Button variant="contained" className={classes.button}>
+					<a
+						href="https://forms.gle/tpUzNEhPSmHneKUo6"
+						className={classes.link}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Reach Out{" "}
+					</a>
+				</Button>
 			</div>
 		</Container>
 	);

@@ -5,14 +5,18 @@ export default makeStyles(() => ({
 		paddingTop: "8rem",
 		textAlign: "center",
 	},
-	packages: {
+	// packages: {
+	// 	display: "flex",
+	// 	justifyContent: "center",
+	// 	margin: "3rem 0",
+	// },
+	card: {
+		// margin: "0 10px",
+		// padding: "2rem 1rem",
 		display: "flex",
-		justifyContent: "center",
-		margin: "3rem 0",
-	},
-	paper: {
-		margin: "0 10px",
-		padding: "1rem 0",
+		flexDirection: "column",
+		alignItems: "center",
+		// backgroundColor: "#fff",
 	},
 	limited: {
 		textDecoration: "line-through",
@@ -28,11 +32,22 @@ export default makeStyles(() => ({
 		margin: "4rem 0",
 		padding: "4rem 0",
 	},
+	quote: {
+		marginTop: "1.5rem",
+		textDecoration: "none",
+		color: "#333",
+	},
 	button: {
 		marginTop: "1rem",
 	},
 	link: {
 		textDecoration: "none",
 		color: "#333",
+	},
+	hr: {
+		width: "40%",
+		height: "2px",
+		backgroundColor: "#f39c12",
+		border: "none",
 	},
 }));

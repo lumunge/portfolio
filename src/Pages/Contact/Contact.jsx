@@ -7,7 +7,7 @@ const Contact = () => {
 	const classes = useStyles();
 
 	return (
-		<div className={classes.main}>
+		<Container className={classes.main}>
 			<div className={classes.section}>
 				<Typography className={classes.caption}>
 					What's in your imagination
@@ -318,7 +318,7 @@ const Contact = () => {
 					</a>
 				</Button>
 			</div>
-		</div>
+		</Container>
 	);
 };
 

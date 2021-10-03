@@ -209,7 +209,7 @@ const About = () => {
 				<Typography className={classes.contactTitle} variant="h4">
 					LET'S WORK TOGETHER
 				</Typography>
-				<Typography variant="body2" className={classes.text}>
+				<Typography variant="body" className={classes.text}>
 					Need a simple website or web application built or maybe some
 					advice on how to approach your problem? Feel free to contact
 					me. Currently my time books quickly, so the sooner the

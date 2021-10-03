@@ -115,10 +115,11 @@ export default makeStyles(() => ({
 		padding: "4rem 0",
 	},
 	text: {
-		padding: "0 3rem",
+		padding: "1rem 3rem",
 	},
 	button: {
-		textTransform: "lowercase",
+		textTransform: "uppercase",
+		backgroundColor: "#f39c12",
 	},
 	tool: {
 		display: "flex",

@@ -5,21 +5,15 @@ export default makeStyles(() => ({
 		paddingTop: "8rem",
 		textAlign: "center",
 	},
-	// packages: {
-	// 	display: "flex",
-	// 	justifyContent: "center",
-	// 	margin: "3rem 0",
-	// },
 	card: {
-		// margin: "0 10px",
-		// padding: "2rem 1rem",
+		padding: "2rem 1rem",
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
-		// backgroundColor: "#fff",
 	},
 	limited: {
 		textDecoration: "line-through",
+		color: "#707b7c",
 	},
 	contact: {
 		display: "flex",
@@ -49,5 +43,6 @@ export default makeStyles(() => ({
 		height: "2px",
 		backgroundColor: "#f39c12",
 		border: "none",
+		margin: "10px 0",
 	},
 }));

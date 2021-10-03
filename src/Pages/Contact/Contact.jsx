@@ -49,7 +49,6 @@ const Contact = () => {
 							<Typography variant="h6">
 								Frontend Development
 							</Typography>
-							<Typography variant="h6">Web Hosting</Typography>
 							<Typography variant="h6">
 								Domain Services
 							</Typography>
@@ -91,6 +90,12 @@ const Contact = () => {
 								variant="h6"
 								className={classes.limited}
 							>
+								E-commerce
+							</Typography>
+							<Typography
+								variant="h6"
+								className={classes.limited}
+							>
 								Content Management
 							</Typography>
 							<Typography
@@ -121,7 +126,6 @@ const Contact = () => {
 							<Typography variant="h6">
 								Backend Development
 							</Typography>
-							<Typography variant="h6">Web Hosting</Typography>
 							<Typography variant="h6">
 								Domain Services
 							</Typography>
@@ -137,6 +141,12 @@ const Contact = () => {
 								className={classes.limited}
 							>
 								Live Chat
+							</Typography>
+							<Typography
+								variant="h6"
+								className={classes.limited}
+							>
+								E-commerce
 							</Typography>
 							<Typography
 								variant="h6"
@@ -172,7 +182,6 @@ const Contact = () => {
 							<Typography variant="h6">
 								Backend Development
 							</Typography>
-							<Typography variant="h6">Web Hosting</Typography>
 							<Typography variant="h6">
 								Domain Services
 							</Typography>
@@ -197,6 +206,12 @@ const Contact = () => {
 								variant="h6"
 								className={classes.limited}
 							>
+								E-commerce
+							</Typography>
+							<Typography
+								variant="h6"
+								className={classes.limited}
+							>
 								Website Audits
 							</Typography>
 							<QuoteButton />
@@ -208,55 +223,59 @@ const Contact = () => {
 							<hr className={classes.hr} />
 							<Typography variant="h6">
 								Interface Design
-								<Tooltip />
+								<Tooltip text="Clean, modern design optimized for performance converting users to customers" />
 							</Typography>
 							<Typography variant="h6">
 								Frontend Development
-								<Tooltip />
+								<Tooltip text="html, css, javascript, jquery, css, apis, responsive design, cms, testing & debugging, cross-browser development" />
 							</Typography>
 							<Typography variant="h6">
 								Backend Developement
-								<Tooltip />
-							</Typography>
-							<Typography variant="h6">
-								Web Hosting
-								<Tooltip />
+								<Tooltip text="django, php, nodejs, databases(sql, mongodb, postgresql) session management, security, testing & debugging, apis, payment intergration" />
 							</Typography>
 							<Typography variant="h6">
 								Domain Services
-								<Tooltip />
+								<Tooltip text="Domain and Hosting configurations, database management, publishing " />
 							</Typography>
-							<Typography variant="h6">24 Reviews </Typography>
+							<Typography variant="h6">
+								24 Reviews
+								<Tooltip text="Functionality, improving the site, potential problems, usability" />
+							</Typography>
 							<Typography variant="h6">
 								12 Mths Maintenance
+								<Tooltip text="Domain name renewal, loadingspeed, security scans, 404 errors" />
 							</Typography>
 							<Typography variant="h6">
 								SEO
-								<Tooltip />
+								<Tooltip text="Optimization for search engines to increase traffic to the website" />
 							</Typography>
 							<Typography variant="h6">
 								Live Chat
-								<Tooltip />
+								<Tooltip text="Real time convenience for your customers and overall competitive advantage." />
+							</Typography>
+							<Typography variant="h6">
+								E-commerce
+								<Tooltip text="Intergration of ecommerce platforms, payment gateways, custom product templates and more" />
 							</Typography>
 							<Typography variant="h6">
 								Analytics
-								<Tooltip />
+								<Tooltip text="Get insights on who is browsing your site so you can male smarter business decisions" />
 							</Typography>
 							<Typography variant="h6">
 								Backups
-								<Tooltip />
+								<Tooltip text="Instant disaster recovery with automated backups." />
 							</Typography>
 							<Typography variant="h6">
 								Content Management
-								<Tooltip />
+								<Tooltip text="Create, store and manage content on the webpage" />
 							</Typography>
 							<Typography variant="h6">
 								Email Setup
-								<Tooltip />
+								<Tooltip text="Domain email accounts as per your domain name" />
 							</Typography>
 							<Typography variant="h6">
 								Website Audits
-								<Tooltip />
+								<Tooltip text="Analytics, ease of management, structural quality, security, usablility" />
 							</Typography>
 							<QuoteButton />
 						</Card>

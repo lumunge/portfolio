@@ -4,6 +4,13 @@ export default makeStyles(() => ({
 	main: {
 		paddingTop: "5rem",
 		height: "100%",
+		width: "100%",
+		"@media (max-width: 780px)": {
+			margin: 0,
+			padding: 0,
+			height: "100%",
+			width: "100%",
+		},
 	},
 	header: {
 		padding: "0 0 2rem 0",

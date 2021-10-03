@@ -5,6 +5,8 @@ export default makeStyles(() => ({
 		paddingTop: "5rem",
 		height: "100%",
 		width: "100%",
+		backgroundColor: "yellow",
+		overflowX: "hidden",
 		"@media (max-width: 780px)": {
 			display: "flex",
 			flexDirection: "column",

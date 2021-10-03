@@ -6,6 +6,12 @@ export default makeStyles(() => ({
 		height: "100%",
 		width: "100%",
 		"@media (max-width: 780px)": {
+			display: "flex",
+			flexDirection: "column",
+			alignItems: "center",
+			justifyContent: "center",
+			textAlign: "center",
+			overflowX: "hidden",
 			margin: 0,
 			padding: 0,
 			height: "100%",

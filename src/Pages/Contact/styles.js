@@ -2,8 +2,17 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
 	main: {
-		paddingTop: "8rem",
-		textAlign: "center",
+		paddingTop: "5rem",
+		height: "100%",
+	},
+	header: {
+		padding: "0 0 2rem 0",
+	},
+	section: {
+		padding: "2rem 0",
+	},
+	headings: {
+		color: "#f39c12",
 	},
 	card: {
 		padding: "2rem 1rem",
@@ -30,6 +39,7 @@ export default makeStyles(() => ({
 		marginTop: "1.5rem",
 		textDecoration: "none",
 		color: "#333",
+		backgroundColor: "#f39c12",
 	},
 	button: {
 		marginTop: "1rem",
@@ -44,5 +54,9 @@ export default makeStyles(() => ({
 		backgroundColor: "#f39c12",
 		border: "none",
 		margin: "10px 0",
+	},
+	caption: {
+		color: "#f39c12",
+		paddingBlock: "10px",
 	},
 }));

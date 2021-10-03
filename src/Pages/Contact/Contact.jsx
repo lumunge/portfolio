@@ -8,8 +8,8 @@ const Contact = () => {
 
 	return (
 		<Container className={classes.main}>
-			<div>
-				<Typography variant="caption">
+			<div className={classes.section}>
+				<Typography className={classes.caption}>
 					What's in your imagination
 				</Typography>
 				<Typography variant="h3">Lets talk about you</Typography>
@@ -19,7 +19,7 @@ const Contact = () => {
 					time books quick so the sooner you write the better for both
 					of us
 				</Typography>
-				<Typography variant="caption">
+				<Typography  className={classes.caption}>
 					Reply within 2 working days
 				</Typography>
 				<br />
@@ -34,8 +34,12 @@ const Contact = () => {
 					</a>
 				</Button>
 			</div>
-			<div>
+			<div className={classes.section}>
+			<Typography className={classes.caption}>
+					What i offer
+				</Typography>
 				<Typography variant="h4">Available Packages</Typography>
+				<br />
 				<Grid container spacing={2} className={classes.packages}>
 					<Grid item xs={12} md={6} lg={3}>
 						<Card className={classes.card}>
@@ -282,8 +286,8 @@ const Contact = () => {
 					</Grid>
 				</Grid>
 			</div>
-			<div>
-				<Typography variant="caption">How i work</Typography>
+			<div className={classes.section}>
+				<Typography className={classes.caption}>How i work</Typography>
 				<Typography variant="h3">Assured Profit</Typography>
 				<Typography variant="h6">
 					As a developer with a business mindset, I am always focusing
@@ -299,7 +303,7 @@ const Contact = () => {
 					better than the money you will spend.
 				</Typography>
 			</div>
-			<div className={classes.contact}>
+			<div className={`${classes.contact} ${classes.section}`}>
 				<Typography className={classes.contactTitle} variant="h4">
 					Have an Idea In Mind?
 				</Typography>

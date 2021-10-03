@@ -68,4 +68,8 @@ export default makeStyles(() => ({
 		color: "#f39c12",
 		paddingBlock: "10px",
 	},
+	info: {
+		cursor: "pointer",
+		fontSize: "20px",
+	},
 }));

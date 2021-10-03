@@ -1,10 +1,26 @@
-import { Typography, Button, Container, Grid, Card } from "@material-ui/core";
-import Tooltip from "./Tooltip";
+import {
+	Typography,
+	Button,
+	Container,
+	Grid,
+	Card,
+	Tooltip,
+} from "@material-ui/core";
+import Info from "@material-ui/icons/Info";
 import QuoteButton from "./Quote";
+import {withStyles} from "@material-ui/core/styles";
 import useStyles from "./styles";
 
 const Contact = () => {
 	const classes = useStyles();
+
+	const PlanTip = withStyles({
+		tooltip: {
+		  color: "#f39c12",
+		  backgroundColor: "#000",
+		  fontSize: "20px"
+		}
+	  })(Tooltip);
 
 	return (
 		<Container className={classes.main}>
@@ -19,7 +35,7 @@ const Contact = () => {
 					time books quick so the sooner you write the better for both
 					of us
 				</Typography>
-				<Typography  className={classes.caption}>
+				<Typography className={classes.caption}>
 					Reply within 2 working days
 				</Typography>
 				<br />
@@ -35,7 +51,7 @@ const Contact = () => {
 				</Button>
 			</div>
 			<div className={classes.section}>
-			<Typography className={classes.caption}>
+				<Typography className={classes.caption}>
 					What i offer
 				</Typography>
 				<Typography variant="h4">Available Packages</Typography>
@@ -227,59 +243,145 @@ const Contact = () => {
 							<hr className={classes.hr} />
 							<Typography variant="h6">
 								Interface Design
-								<Tooltip text="Clean, modern design optimized for performance converting users to customers" />
+								<PlanTip
+									title="Clean, modern design optimized for performance converting users to customers."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Frontend Development
-								<Tooltip text="html, css, javascript, jquery, css, apis, responsive design, cms, testing & debugging, cross-browser development" />
+								<PlanTip
+									title="html, css, javascript, jquery, css, apis, responsive design, cms, testing & debugging, cross-browser development."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Backend Developement
-								<Tooltip text="django, php, nodejs, databases(sql, mongodb, postgresql) session management, security, testing & debugging, apis, payment intergration" />
+								<PlanTip
+									title="django, php, nodejs, databases(sql, mongodb, postgresql) session management, security, testing & debugging, apis, payment intergration."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Domain Services
-								<Tooltip text="Domain and Hosting configurations, database management, publishing " />
+								<PlanTip
+									title="Domain and Hosting configurations, database management, publishing."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								24 Reviews
-								<Tooltip text="Functionality, improving the site, potential problems, usability" />
+								<PlanTip
+									title="Functionality, improving the site, potential problems, usability."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								12 Mths Maintenance
-								<Tooltip text="Domain name renewal, loadingspeed, security scans, 404 errors" />
+								<PlanTip
+									title="Domain name renewal, loadingspeed, security scans, 404 errors."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								SEO
-								<Tooltip text="Optimization for search engines to increase traffic to the website" />
+								<PlanTip
+									title="Optimization for search engines to increase traffic to the website."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Live Chat
-								<Tooltip text="Real time convenience for your customers and overall competitive advantage." />
+								<PlanTip
+									title="Real time convenience for your customers and overall competitive advantage."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								E-commerce
-								<Tooltip text="Intergration of ecommerce platforms, payment gateways, custom product templates and more" />
+								<PlanTip
+									title="Intergration of ecommerce platforms, payment gateways, custom product templates."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Analytics
-								<Tooltip text="Get insights on who is browsing your site so you can male smarter business decisions" />
+								<PlanTip
+									title="Get insights on who is browsing your site so you can male smarter business decisions."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Backups
-								<Tooltip text="Instant disaster recovery with automated backups." />
+								<PlanTip
+									title="Instant disaster recovery with automated backups."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Content Management
-								<Tooltip text="Create, store and manage content on the webpage" />
+								<PlanTip
+									title="Create, store and manage content on the webpage."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Email Setup
-								<Tooltip text="Domain email accounts as per your domain name" />
+								<PlanTip
+									title="Domain email accounts as per your domain name."
+									placement="top"
+									arrow
+								>
+									<Info className={classes.info}/>
+								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
 								Website Audits
-								<Tooltip text="Analytics, ease of management, structural quality, security, usablility" />
+								<PlanTip
+									title="Analytics, ease of management,
+										structural quality, security, usablility."
+									placement="top"
+									arrow
+									className={classes.popper}
+								>
+									<Info className={classes.info} />
+								</PlanTip>
 							</Typography>
 							<QuoteButton />
 						</Card>

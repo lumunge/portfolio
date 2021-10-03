@@ -6,6 +6,9 @@ export default makeStyles(() => ({
 		width: "100%",
 		display: "flex",
 		flexDirection: "column",
+		"@media (max-width: 780px)": {
+			margin: 0,
+		},
 	},
 	heading: {
 		textAlign: "center",

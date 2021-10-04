@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
 	Typography,
 	Button,
@@ -8,19 +9,21 @@ import {
 } from "@material-ui/core";
 import Info from "@material-ui/icons/Info";
 import QuoteButton from "./Quote";
-import {withStyles} from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles";
 import useStyles from "./styles";
 
 const Contact = () => {
 	const classes = useStyles();
 
+	const [showTooltip, setShowToolTip] = useState(false);
+
 	const PlanTip = withStyles({
 		tooltip: {
-		  color: "#f39c12",
-		  backgroundColor: "#000",
-		  fontSize: "20px"
-		}
-	  })(Tooltip);
+			color: "#f39c12",
+			backgroundColor: "#000",
+			fontSize: "20px",
+		},
+	})(Tooltip);
 
 	return (
 		<Container className={classes.main}>
@@ -248,7 +251,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -258,7 +261,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -268,7 +271,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -278,7 +281,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -288,7 +291,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -298,7 +301,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -308,7 +311,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -318,7 +321,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -328,7 +331,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -338,7 +341,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -348,7 +351,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -358,7 +361,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -368,7 +371,7 @@ const Contact = () => {
 									placement="top"
 									arrow
 								>
-									<Info className={classes.info}/>
+									<Info className={classes.info} />
 								</PlanTip>
 							</Typography>
 							<Typography variant="h6">
@@ -380,7 +383,12 @@ const Contact = () => {
 									arrow
 									className={classes.popper}
 								>
-									<Info className={classes.info} />
+									<Info
+										className={classes.info}
+										onClick={() =>
+											setShowToolTip(!showTooltip)
+										}
+									/>
 								</PlanTip>
 							</Typography>
 							<QuoteButton />

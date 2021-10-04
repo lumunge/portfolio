@@ -2,6 +2,7 @@ import { useState } from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
+import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
 
 const Home = () => {
@@ -14,16 +15,16 @@ const Home = () => {
 				<div className={classes.introInfo}>
 					<Typography className={classes.caption}>whoami</Typography>
 					<Typography variant="h2" className={classes.title}>
-						Software Developer
+						Web Developer, Programmer
 					</Typography>
 					<Typography className={classes.about} variant="h5">
-						lumunge is a{" "}
+						I am an
 						<span className={classes.highlights}>
-							software developer
+							experienced web developer, programmer
 						</span>{" "}
 						with 3 years developing software from simple 'hello
 						world' programs to complex multi-user web applications.
-						He has a background in computer science, and loves
+						I have a background in computer science, and love
 						cycling, chess and solving puzzles.
 					</Typography>
 				</div>
@@ -38,15 +39,17 @@ const Home = () => {
 			<div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>
-						<Typography className={classes.caption}>my workflow</Typography>
+						<Typography className={classes.caption}>
+							my workflow
+						</Typography>
 						<Typography variant="h2" className={classes.h2}>
 							Development Process
 						</Typography>
 						<Typography variant="h6">
 							Reach your business goals with an excellent website
-							that make users keep coming back, Fomr idea to
-							tangible working result From idea to tangible
-							working software. Lets Begin
+							that make users keep coming back, From idea to a
+							tangible working software in matter of time. Lets
+							Begin
 						</Typography>
 					</div>
 					<div className={classes.cta2}>
@@ -137,8 +140,12 @@ const Home = () => {
 			</div>
 
 			<div>
-				<Typography className={classes.caption}>problems solved</Typography>
-				<Typography variant="h2" className={classes.h2}>Case Studies</Typography>
+				<Typography className={classes.caption}>
+					problems solved
+				</Typography>
+				<Typography variant="h2" className={classes.h2}>
+					Case Studies
+				</Typography>
 
 				{cases.map((study, index) => (
 					<Paper elevation={3} className={classes.paper} key={index}>
@@ -194,18 +201,26 @@ const Home = () => {
 				))}
 				<div className={classes.more}>
 					<Button
-						variant="contained"
-						className={classes.navLinks}
+						className={classes.moreBtn}
 						component={Link}
 						to="/work"
 					>
-						More
+						<MoreHoriz className={classes.moreIcon} />
 					</Button>
 				</div>
 			</div>
 			<div className={classes.contact}>
 				<Typography variant="h4">LET'S WORK TOGETHER</Typography>
-				<Typography>lumungep12@gmail.com</Typography>
+				<Button variant="contained" className={classes.start}>
+					<a
+						href="https://forms.gle/tpUzNEhPSmHneKUo6"
+						className={classes.link}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Start a project
+					</a>
+				</Button>
 			</div>
 		</Container>
 	);

@@ -57,21 +57,18 @@ export default makeStyles(() => ({
 	},
 	profile: {
 		width: "50%",
-		height: "600px",
 		padding: "4rem 2rem",
 		"@media (min-width: 300px)": {
 			width: "100%",
-			height: "500px",
 			marginBottom: "3rem",
 		},
 		"@media (min-width: 768px)": {
 			width: "100%",
-			height: "100%",
 		},
 	},
 	profileImg: {
 		width: "100%",
-		height: "100%",
+		height: "600px",
 		borderRadius: "50%",
 		objectFit: "cover",
 		"@media (min-width: 300px)": {
@@ -186,6 +183,16 @@ export default makeStyles(() => ({
 		display: "flex",
 		justifyContent: "center",
 		padding: "2rem 0",
+	},
+	moreBtn: {
+		padding: 0,
+		"&:hover": {
+			cursor: "pointer",
+		},
+	},
+	moreIcon: {
+		fontSize: "3rem",
+		color: "#fff",
 	},
 	link: {
 		textDecoration: "none",

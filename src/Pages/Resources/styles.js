@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core";
 export default makeStyles(() => ({
 	container: {
 		margin: "7rem 3rem",
-		height: "80vh",
+		height: "100%",
 	},
 	paper: {
 		display: "flex",

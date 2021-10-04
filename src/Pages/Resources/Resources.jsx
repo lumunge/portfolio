@@ -3,7 +3,7 @@ import useStyles from "./styles.js";
 
 const Resources = () => {
 	const classes = useStyles();
-	return (
+	return ( 
 		<div className={classes.container}>
 			<Grid container spacing={4}>
 				<Grid item xs={12} sm={12} md={6}>

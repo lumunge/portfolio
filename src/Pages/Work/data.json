@@ -6,7 +6,7 @@
 			"url": "https://elated-volhard-88e9b3.netlify.app/",
 			"github": "https://github.com/lumunge/Cocktailer",
 			"title": "Cocktailer",
-			"description": ""
+			"description": "Thirsty, and have various ingredients at home and want to try something new, check out the website for free directions on how to make a cocktails at home from expert bartenders from around the world, No matter if you are looking for a classic cocktails or an original mix. There is something for everyone and every occassion. Just shake, blend, stir and pour away."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/everoRealEst.png",
@@ -14,7 +14,7 @@
 			"url": "https://lumunge.github.io/Real-Estate-Website/",
 			"github": "https://github.com/lumunge/Real-Estate-Website",
 			"title": "Evero Real Estate",
-			"description": ""
+			"description": "This is a PSD Conversion whereby i converted the PSD template to its code equivalent with SEO, responsive design for mobile phones and a beautiful UI that wil keep clients coming back."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/movieApp.png",
@@ -22,7 +22,7 @@
 			"url": "https://gallant-albattani-ce1704.netlify.app/",
 			"github": "https://github.com/lumunge/Movie-App",
 			"title": "Movie App",
-			"description": ""
+			"description": "A simple react movie app to search for latest movies from the movie db and added sharing functionalities to share with friends on facebook just by the click of a button."
 		}
 	]
 }

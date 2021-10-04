@@ -3,7 +3,7 @@ import useStyles from "./styles.js";
 
 const Resources = () => {
 	const classes = useStyles();
-	return ( 
+	return (
 		<div className={classes.container}>
 			<Grid container spacing={4}>
 				<Grid item xs={12} sm={12} md={6}>
@@ -13,6 +13,7 @@ const Resources = () => {
 							href="https://www.cprogramming.com/whatdoesittake.html"
 							target="_blank"
 							rel="noreferrer"
+							className={classes.link}
 						>
 							{" "}
 							What it takes to be a programmer{" "}
@@ -21,6 +22,7 @@ const Resources = () => {
 							href="https://www.cprogramming.com/whyprogram.html"
 							target="_blank"
 							rel="noreferrer"
+							className={classes.link}
 						>
 							{" "}
 							Why program{" "}
@@ -29,6 +31,7 @@ const Resources = () => {
 							href="https://www.cprogramming.com/tutorial/thinking.html"
 							target="_blank"
 							rel="noreferrer"
+							className={classes.link}
 						>
 							{" "}
 							Thinking like a programmer{" "}
@@ -42,6 +45,7 @@ const Resources = () => {
 							href="https://www.youtube.com/watch?v=nLmhmB6NzcM"
 							target="_blank"
 							rel="noreferrer"
+							className={classes.link}
 						>
 							Solving 0/1 Knapsack Problem{" "}
 						</a>
@@ -54,16 +58,17 @@ const Resources = () => {
 							target="_blank"
 							rel="noreferrer"
 							href="https://www.amazon.com/gp/product/014312417X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=014312417X&linkCode=as2&tag=lumunge-20&linkId=a387334847b14cbfc0bcb496d8db0541"
+							className={classes.link}
 						>
 							Mastery - Robert Greene{" "}
 						</a>
-                        <a target="_blank" rel="noreferrer" href="https://www.amazon.com/gp/product/0465094279/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0465094279&linkCode=as2&tag=lumunge-20&linkId=3dd936f7bd18f1f92a3fa64f913eeb88">The Master Algorithm{" "}</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.amazon.com/gp/product/0465094279/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0465094279&linkCode=as2&tag=lumunge-20&linkId=3dd936f7bd18f1f92a3fa64f913eeb88" className={classes.link}>The Master Algorithm{" "}</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
 						<Typography variant="h4">Courses & Learning Paths</Typography>
-                            <a target="_blank" rel="noreferrer" href="https://leetcode.com/study-plan/">DSA</a>
+                            <a target="_blank" rel="noreferrer" href="https://leetcode.com/study-plan/" className={classes.link}>DSA</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

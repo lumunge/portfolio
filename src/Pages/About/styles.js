@@ -66,6 +66,7 @@ export default makeStyles(() => ({
 	image: {
 		width: "100%",
 		height: "100%",
+		objectFit: "cover",
 	},
 	about: {
 		marginTop: "6rem",

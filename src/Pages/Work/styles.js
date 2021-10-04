@@ -44,6 +44,7 @@ export default makeStyles(() => ({
 	projectImage: {
 		height: "100%",
 		width: "100%",
+		objectFit: "contain",
 		"@media (max-width: 780px)": {
 			width: "100%",
 		},

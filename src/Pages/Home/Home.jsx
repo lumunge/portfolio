@@ -27,7 +27,7 @@ const Home = () => {
 						cycling, chess and solving puzzles.
 					</Typography>
 				</div>
-				<div item xs={12} md={6} className={classes.profile}>
+				<div className={classes.profile}>
 					<img
 						className={classes.profileImg}
 						src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"

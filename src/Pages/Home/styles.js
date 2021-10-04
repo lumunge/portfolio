@@ -58,21 +58,26 @@ export default makeStyles(() => ({
 	profile: {
 		width: "50%",
 		height: "600px",
-		padding: "4rem 3rem",
+		padding: "4rem 2rem",
 		"@media (min-width: 300px)": {
 			width: "100%",
 			height: "500px",
 			marginBottom: "3rem",
 		},
 		"@media (min-width: 768px)": {
-			width: "70%",
-			height: "500px",
+			width: "100%",
+			height: "100%",
 		},
 	},
 	profileImg: {
 		width: "100%",
-		height: "120%",
+		height: "100%",
 		borderRadius: "50%",
+		objectFit: "cover",
+		"@media (min-width: 300px)": {
+			objectFit: "cover",
+			width: "100%",
+		},
 	},
 	highlights: {
 		backgroundColor: "#f39c12",
@@ -109,6 +114,7 @@ export default makeStyles(() => ({
 	projectImage: {
 		height: "100%",
 		width: "100%",
+		objectFit: "fill",
 		"@media (max-width: 780px)": {
 			width: "100%",
 		},

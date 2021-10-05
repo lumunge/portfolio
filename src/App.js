@@ -17,31 +17,11 @@ const App = () => {
 			<Scroll>
 				<Navbar />
 				<Switch>
-					<Route
-						exact
-						path={process.env.PUBLIC_URL + "/"}
-						component={Home}
-					/>
-					<Route
-						exact
-						path={process.env.PUBLIC_URL + "/work"}
-						component={Work}
-					/>
-					<Route
-						exact
-						path={process.env.PUBLIC_URL + "/about"}
-						component={About}
-					/>
-					<Route
-						exact
-						path={process.env.PUBLIC_URL + "/contact"}
-						component={Contact}
-					/>
-					<Route
-						exact
-						path={process.env.PUBLIC_URL + "/resources"}
-						component={Resources}
-					/>
+					<Route exact path="/" component={Home} />
+					<Route exact path="/work" component={Work} />
+					<Route exact path="/about" component={About} />
+					<Route exact path="/contact" component={Contact} />
+					<Route exact path="/resources" component={Resources} />
 				</Switch>
 				<Footer />
 			</Scroll>

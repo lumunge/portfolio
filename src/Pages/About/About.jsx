@@ -17,10 +17,9 @@ const About = () => {
 					</Typography>
 					<Typography variant="h3">Nice to meet you</Typography>
 					<Typography variant="h5">
-						I work as a software developer translating your business
-						requirements to functioning websites and web
-						applications with a combination of design, business and
-						logic{" "}
+						I am a great problem solver in that i translate your
+						business needs to functioning software with a
+						combination of design, logic and creativity{" "}
 					</Typography>
 				</div>
 
@@ -40,24 +39,24 @@ const About = () => {
 						Intersection of Code and Business
 					</Typography>
 					<Typography variant="h5">
-						The internet and technology is the greatest reward to
-						mankind as it offers us a wide range of choices and
-						opportunities in contrast to outdated conventional ways
-						where a group controlled what we know or do. This is my
+						The internet and technology itself is the greatest
+						reward to mankind as it offers us a wide range of
+						choices and opportunities in contrast to outdated
+						conventional ways where a group controlled what we know
+						or can do. It has provided multiple avenues for many
+						people to earn a living doing what they love. This is my
 						inspiration to being a developer because i can build
 						anything. Software makes a real impact in peoples lives
 						from blogs the shares awesome stories that inspire
 						people to ecommerce stores that enable people to shop at
 						the comforts of their homes to health systems that
-						diagnose patients for free imporoving the quality of
-						lives to search engines that save us years of college
-						and expenses that go with to social media that connects
-						people.
+						diagnose patients for free improving the quality of
+						their lives to search engines that save us years of
+						college and expenses to social media that connects
+						people globally.
 						<span>Life</span> was meant to be easy and the{" "}
-						<span> internet </span> has made it and is still
-						simplifying life for us. Soon we would not have to work
-						and the robots will be working for us as we sit back and
-						read.
+						<span> internet </span> has made it so and is still
+						simplifying life for us.
 					</Typography>
 				</div>
 				<div className={classes.imageContainer}>
@@ -75,16 +74,16 @@ const About = () => {
 					</Typography>
 					<Typography variant="h3">Following my Passion</Typography>
 					<Typography variant="h5">
-						Conventional education did not serve me as i expected,
-						but this all changed when i joined college and pursued
-						what i liked, Computer Science. I started excelling to
-						the point where i discovered that doing what you love
-						makes success a joke and life a game so i have been
-						playing since 2018. I dived deeper into computer science
-						topics which introduced me to code, the primary factor
-						upon which technolgy is built upon and l loved to code
-						ever since. I am fueled by my passion for understanding
-						systems and how they were built, how they work and their
+						Conventional education did not serve me as expected, but
+						this all changed when i joined college and pursued what
+						i liked, Computer Science. I started excelling to the
+						point where i discovered that doing what you love makes
+						success a joke and life a game so i have been playing
+						since 2018. I dived deeper into computer science topics
+						such as algorithms and data structures which led me to
+						code, the primary factor upon which technology is built
+						upon.I am fueled by my passion for understanding systems
+						and how they were built, how they work and their
 						intended purpose. I consider learning as a life long
 						activity because if you are not growing you are
 						basically decaying. My hunger for knowledge and
@@ -94,13 +93,13 @@ const About = () => {
 						looked back. Sure there are frustrating moments in the
 						process but i always come through and the feeling of
 						success never gets old. I belive in mindfullness,
-						creating your own meaning and being fully engaged with
-						whatever i am doing and has led me to the habit of
-						spending most of my day infront of screens. I believe i
-						have found my meaning in building software. Apart from
-						my full time commitments i takle interesting freelance
-						projects for clients facing different challenges that
-						can be solved by technology.
+						creating your own meaning in life and being fully
+						engaged with whatever i am doing and this has led me to
+						the habit of spending most of my day infront of computer
+						screens. I believe i have found my meaning in building
+						software. Apart from my full time commitments i tackle
+						interesting freelance projects for clients facing
+						different challenges that can be solved by technology.
 						<Typography variant="h6">
 							<a
 								href="https://forms.gle/tpUzNEhPSmHneKUo6"
@@ -131,11 +130,22 @@ const About = () => {
 						Building without getting my hands dirty
 					</Typography>
 					<Typography variant="h5">
-						I love to create, from thinking of it to actual
-						conception of ideas. I love being hands on on projects
+						I love to create, from thinking it to building it. The
+						process from having a simple idea while going about your
+						day and developing it to a complex functioning system
+						using all these tools and technologies available,
+						dealing w with problems that arise and accomplishing
+						what i set out to do is what i love about this whole
+						process. My imagination is my only limitation, as long
+						as i can imagine it, i can build it. I love the
+						frustrations and the pain that comes from programming.
+						'No art that is worth while was ever created in
+						happiness'. It is like painting, but with a numbers and
+						logic. Logic that is simple and yet complex at the same
+						time, zeros and ones!. I love being hands on on projects
 						both personal and commercial. For me programming is a
 						way to channel my creativity and have it impact peoples
-						live positively.
+						live positively at the same time.
 					</Typography>
 				</div>
 				<div className={classes.imageContainer}>
@@ -146,7 +156,9 @@ const About = () => {
 					/>
 				</div>
 			</div>
-			<br /><br /><br />
+			<br />
+			<br />
+			<br />
 			<div classname={classes.toolkit}>
 				<Typography className={classes.caption}>
 					what i know?
@@ -179,29 +191,36 @@ const About = () => {
 					))}
 				</Grid>
 			</div>
-			<br /><br /><br />
+			<br />
+			<br />
+			<br />
 			<div className={`${classes.princ} ${classes.section}`}>
 				<Typography className={classes.caption}>
 					my principles
 				</Typography>
 				<div className={classes.principles}>
 					<Paper className={classes.paper}>
-						<Typography variant="h4"> Effectiveness</Typography>
+						<Typography variant="h4">Simplicity</Typography>
 					</Paper>
 					<Paper className={classes.paper}>
-						<Typography variant="h4">Efficiency</Typography>
+						<Typography variant="h4">Precision</Typography>
 					</Paper>
 					<Paper className={classes.paper}>
 						<Typography variant="h4">
 							{" "}
-							Learning is Life Long Process
+							Learning, A Life Long Process
 						</Typography>
 					</Paper>
 					<Paper className={classes.paper}>
-						<Typography variant="h4"> Consistency</Typography>
+						<Typography variant="h4">
+							Understanding The User
+						</Typography>
 					</Paper>
 					<Paper className={classes.paper}>
-						<Typography variant="h4"> Know your Users</Typography>
+						<Typography variant="h4">Consistency</Typography>
+					</Paper>
+					<Paper className={classes.paper}>
+						<Typography variant="h4">Problem Solving</Typography>
 					</Paper>
 				</div>
 			</div>
@@ -210,10 +229,10 @@ const About = () => {
 					LET'S WORK TOGETHER
 				</Typography>
 				<Typography variant="body" className={classes.text}>
-					Need a simple website or web application built or maybe some
-					advice on how to approach your problem? Feel free to contact
-					me. Currently my time books quickly, so the sooner the
-					better.
+					Need a simple website, web application or custom software
+					built or maybe some advice on how to approach your problem?
+					Feel free to contact me. Currently my time books quickly, so
+					the sooner the better.
 				</Typography>
 				<Button variant="contained" className={classes.button}>
 					<a

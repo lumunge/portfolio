@@ -150,9 +150,6 @@ export default makeStyles(() => ({
 			fontSize: "3rem",
 		},
 	},
-	start: {
-		marginRight: "2rem",
-	},
 	contact: {
 		display: "flex",
 		flexDirection: "column",

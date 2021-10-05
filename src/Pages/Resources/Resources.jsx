@@ -8,7 +8,15 @@ const Resources = () => {
 			<Grid container spacing={4}>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
-						<Typography variant="h4">Articles</Typography>
+						<Typography variant="h4">Articles & Sites</Typography>
+						<a
+							href="http://algorithmexamples.com/"
+							target="_blank"
+							rel="noreferrer"
+							className={classes.link}
+						>
+							Algorithms Examples
+						</a>
 						<a
 							href="https://www.cprogramming.com/whatdoesittake.html"
 							target="_blank"

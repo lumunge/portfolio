@@ -401,16 +401,17 @@ const Contact = () => {
 				<Typography variant="h3">Assured Profit</Typography>
 				<Typography variant="h6">
 					As a developer with a business mindset, I am always focusing
-					on creating expreiences which are delightful to your users
-					and profitable to your business. I start every project with
-					detailed questions about your business and customers before
-					i dive into solutions. I work with selected clients at a
-					time in order to ensure high quality and meaningful results.
-					If i feel it wont work for you i will tell you and recommend
-					other viable solutions. I only accept project which i
-					believe i can create the maximum value to the business and
-					impact to your users and i assure you, the results are
-					better than the money you will spend.
+					on creating web experiences which are delightful to your
+					users and profitable to your business. I start every project
+					with very detailed questions about your business and
+					customers before i dive into possible solutions. I work with
+					selected clients at a time in order to ensure high quality
+					and meaningful results. If i feel it won't work for your i
+					will tell you and recommend other viable solutions. I only
+					take on projects that I know I can complete in time and to
+					perfection that will create the maximum value to your
+					business and impact to your users psoitively and i assure
+					you, the results are better than the money you will spend.
 				</Typography>
 			</div>
 			<div className={`${classes.contact} ${classes.section}`}>

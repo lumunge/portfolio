@@ -67,6 +67,9 @@ export default makeStyles(() => ({
 		width: "100%",
 		height: "100%",
 		objectFit: "cover",
+		"@media (max-width: 780px)": {
+			objectFit: "contain",
+		},
 	},
 	about: {
 		marginTop: "6rem",

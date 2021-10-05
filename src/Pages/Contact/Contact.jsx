@@ -34,7 +34,7 @@ const Contact = () => {
 				<Typography variant="h3">Lets talk about you</Typography>
 				<Typography variant="h5">
 					Have the next disruptive idea in mind or just want to chat,
-					feel free to get i touch with me. Im that easy. Currently my
+					feel free to get in touch with me. Im that easy. Currently my
 					time books quick so the sooner you write the better for both
 					of us
 				</Typography>

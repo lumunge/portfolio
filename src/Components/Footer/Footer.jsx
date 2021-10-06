@@ -12,9 +12,9 @@ const Footer = () => {
         <div className={classes.footer}>
         <BottomNavigation>
         <div className={classes.socials}>
-            <a href="https://github.com/lumunge"><BottomNavigationAction icon={<GitHubIcon />} /></a>
-            <a href="https://www.linkedin.com/in/lumunge/"><BottomNavigationAction icon={<LinkedInIcon />} /></a>
-            <a href="lumungep12@gmail.com"><BottomNavigationAction icon={<MailIcon />} /></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/lumunge"><BottomNavigationAction icon={<GitHubIcon />} /></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lumunge/"><BottomNavigationAction icon={<LinkedInIcon />} /></a>
+            <a target="_blank" rel="noreferrer" href="lumungep12@gmail.com"><BottomNavigationAction icon={<MailIcon />} /></a>
         </div>
       </BottomNavigation>
       <div className={classes.footerDetails}>

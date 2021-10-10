@@ -63,6 +63,7 @@ const Home = () => {
 								Start a project
 							</a>
 						</Button>
+						&nbsp;&nbsp;
 						<Button
 							variant="contained"
 							component={Link}

@@ -39,6 +39,9 @@ const Navbar = () => {
                 <Button className={classes.navLinks} component={Link} to="/contact">
 					Contact
 				</Button>
+				<Button className={classes.navLinks} component={Link} to="/contact">
+					Resume
+				</Button>
 				</div>
 			</Toolbar>
 			<div className={classes.responsive}>

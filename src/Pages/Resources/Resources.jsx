@@ -70,13 +70,29 @@ const Resources = () => {
 						>
 							Mastery - Robert Greene{" "}
 						</a>
-                        <a target="_blank" rel="noreferrer" href="https://www.amazon.com/gp/product/0465094279/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0465094279&linkCode=as2&tag=lumunge-20&linkId=3dd936f7bd18f1f92a3fa64f913eeb88" className={classes.link}>The Master Algorithm{" "}</a>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.amazon.com/gp/product/0465094279/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0465094279&linkCode=as2&tag=lumunge-20&linkId=3dd936f7bd18f1f92a3fa64f913eeb88"
+							className={classes.link}
+						>
+							The Master Algorithm{" "}
+						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
-						<Typography variant="h4">Courses & Learning Paths</Typography>
-                            <a target="_blank" rel="noreferrer" href="https://leetcode.com/study-plan/" className={classes.link}>DSA</a>
+						<Typography variant="h4">
+							Courses & Learning Paths
+						</Typography>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://leetcode.com/study-plan/"
+							className={classes.link}
+						>
+							DSA
+						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

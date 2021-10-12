@@ -38,4 +38,8 @@ export default makeStyles((theme) => ({
 	menu: {
 		background: "#17202a",
 	},
+	resume: {
+		textDecoration: "none",
+		color: "inherit",
+	},
 }));

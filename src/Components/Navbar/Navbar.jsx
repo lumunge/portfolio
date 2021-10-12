@@ -39,9 +39,9 @@ const Navbar = () => {
                 <Button className={classes.navLinks} component={Link} to="/contact">
 					Contact
 				</Button>
-				{/* <Button className={classes.navLinks}> */}
-					<a href="../../docs/LumungeResume.pdf" target="_blank">Resume</a>
-				{/* </Button> */}
+				<Button className={classes.navLinks}>
+					<a className={classes.resume} href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf" target="_blank" rel="noreferrer">Resume</a>
+				</Button>
 				</div>
 			</Toolbar>
 			<div className={classes.responsive}>

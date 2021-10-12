@@ -1,68 +1,128 @@
-import {useState} from'react'
-import {Link} from 'react-router-dom';
-import { AppBar, Toolbar, Button, Typography, Menu, MenuItem, } from "@material-ui/core";
-import SortIcon from '@material-ui/icons/Sort';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import {
+	AppBar,
+	Toolbar,
+	Button,
+	Typography,
+	Menu,
+	MenuItem,
+} from "@material-ui/core";
+import SortIcon from "@material-ui/icons/Sort";
 import useStyles from "./styles";
 
 const Navbar = () => {
-
 	const [anchorEl, setAnchorEl] = useState(null);
 
 	const classes = useStyles();
 
-
-
 	const handleClick = (event) => {
 		setAnchorEl(event.currentTarget);
-	  };
-	
-	  const handleClose = () => {
+	};
+
+	const handleClose = () => {
 		setAnchorEl(null);
-	  };
+	};
 
 	return (
 		<AppBar position="fixed" className={classes.navBar}>
 			<Toolbar className={classes.toolBar}>
 				<div>
-                <Typography className={classes.logo} variant="h6" component={Link} to="/">lumunge</Typography>
+					<Typography
+						className={classes.logo}
+						variant="h6"
+						component={Link}
+						to="/"
+					>
+						lumunge
+					</Typography>
 				</div>
 				<div>
-                <Button className={classes.navLinks} component={Link} to="/work">
-					Work
-				</Button>
-				<Button className={classes.navLinks} component={Link} to="/about">
-					About
-				</Button>
-				<Button className={classes.navLinks} component={Link} to="/resources">
-					Resources
-				</Button>
-                <Button className={classes.navLinks} component={Link} to="/contact">
-					Contact
-				</Button>
-				<Button className={classes.navLinks}>
-					<a className={classes.resume} href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf" target="_blank" rel="noreferrer">Resume</a>
-				</Button>
+					<Button
+						className={classes.navLinks}
+						component={Link}
+						to="/work"
+					>
+						Work
+					</Button>
+					<Button
+						className={classes.navLinks}
+						component={Link}
+						to="/about"
+					>
+						About
+					</Button>
+					<Button
+						className={classes.navLinks}
+						component={Link}
+						to="/resources"
+					>
+						Resources
+					</Button>
+					<Button
+						className={classes.navLinks}
+						component={Link}
+						to="/contact"
+					>
+						Contact
+					</Button>
+					<Button className={classes.navLinks}>
+						<a
+							className={classes.resume}
+							href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Resume
+						</a>
+					</Button>
 				</div>
 			</Toolbar>
 			<div className={classes.responsive}>
 				<div>
-					<MenuItem component={Link} to="/">lumunge</MenuItem>
+					<MenuItem component={Link} to="/">
+						lumunge
+					</MenuItem>
 				</div>
 				<div>
-				<MenuItem onClick={handleClick} >
-					<SortIcon/>
-				</MenuItem>
-				<Menu
-					anchorEl={anchorEl}
-					keepMounted
-					open={Boolean(anchorEl)}
-					onClose={handleClose}
-				>
-					<MenuItem onClick={handleClose} component={Link} to="/work">work</MenuItem>
-					<MenuItem onClick={handleClose} component={Link} to="/about">about</MenuItem>
-					<MenuItem onClick={handleClose} component={Link} to="/resources">resources</MenuItem>
-					<MenuItem onClick={handleClose} component={Link} to="/contact">contact</MenuItem>
-				</Menu>
+					<MenuItem onClick={handleClick}>
+						<SortIcon />
+					</MenuItem>
+					<Menu
+						anchorEl={anchorEl}
+						keepMounted
+						open={Boolean(anchorEl)}
+						onClose={handleClose}
+					>
+						<MenuItem
+							onClick={handleClose}
+							component={Link}
+							to="/work"
+						>
+							work
+						</MenuItem>
+						<MenuItem
+							onClick={handleClose}
+							component={Link}
+							to="/about"
+						>
+							about
+						</MenuItem>
+						<MenuItem
+							onClick={handleClose}
+							component={Link}
+							to="/resources"
+						>
+							resources
+						</MenuItem>
+						<MenuItem
+							onClick={handleClose}
+							component={Link}
+							to="/contact"
+						>
+							contact
+						</MenuItem>
+					</Menu>
 				</div>
 			</div>
 		</AppBar>

@@ -1,6 +1,14 @@
 {
 	"caseStudies": [
 		{
+			"image": "",
+			"tags": "frontend development / backend development / chat / users",
+			"url": "https://boring-spence-6d9bf8.netlify.app/cars",
+			"github": "",
+			"title": "Automotive Enthusiast",
+			"description": "This app connects automotive enthusiasts who have a passionate interest in cars and or other motovehicles or anything associated with them such as manifacturing company and the sort and takes pleasure in ejoying and appreciating them beyond their basic function of transportation. It includes a chat feature where by users can connect on the platform and share their opinions. It aslo has social features such as likes."
+		},
+		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/ecommerce.png",
 			"tags": "frontend development / backend development / ecommerce",
 			"url": "https://youthful-turing-553565.netlify.app/",

@@ -406,11 +406,11 @@ const Contact = () => {
 					with very detailed questions about your business and
 					customers before i dive into possible solutions. I work with
 					selected clients at a time in order to ensure high quality
-					and meaningful results. If i feel it won't work for your i
-					will tell you and recommend other viable solutions. I only
+					and meaningful results. If i feel it won't work for your situation, i
+					will recommend other viable solutions. I only
 					take on projects that I know I can complete in time and to
 					perfection that will create the maximum value to your
-					business and impact to your users psoitively and i assure
+					business and impact to your users positively and i assure
 					you, the results are better than the money you will spend.
 				</Typography>
 			</div>

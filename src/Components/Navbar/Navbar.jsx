@@ -122,6 +122,16 @@ const Navbar = () => {
 						>
 							contact
 						</MenuItem>
+						<MenuItem onClick={handleClose}>
+							<a
+								className={classes.resume}
+								href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+								target="_blank"
+								rel="noreferrer"
+							>
+								resume
+							</a>
+						</MenuItem>
 					</Menu>
 				</div>
 			</div>

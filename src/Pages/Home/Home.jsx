@@ -47,9 +47,9 @@ const Home = () => {
 						</Typography>
 						<Typography variant="h6">
 							Reach your business goals with an excellent website
-							that make users keep coming back, From idea to a
+							that makes users keep coming back, From idea to a
 							tangible working software in matter of time. Lets
-							Begin
+							Begin.
 						</Typography>
 					</div>
 					<div className={classes.cta2}>
@@ -77,7 +77,7 @@ const Home = () => {
 					<div>
 						<Typography variant="h4"> 01. Ideation</Typography>
 						<Typography variant="h6">
-							Questions First. Before starting to write code i
+							Questions First. Before i start writing code i
 							always make sure that we understand whatever we are
 							trying to accomplish by asking the rights questions.
 							This stage entails alot of meetings, competitive
@@ -122,19 +122,19 @@ const Home = () => {
 							Does it Work?. I put your website through a series
 							of tests on a development server to see if all
 							features are working as they should. Testing will be
-							critial as issues are inevitable and need to be
+							critical as issues are inevitable and need to be
 							addressed before the site goes live.
 						</Typography>
 					</div>
 					<div>
 						<Typography variant="h4">06. Launch</Typography>
 						<Typography variant="h6">
-							Success. The day has come . In this phase I present
-							you with the final product over a cup of coffee. We
-							test the functionality of the system with some of
-							your users and determine wheather it addresses their
-							needs and making small adjustments here and there to
-							perfection.
+							Success. The day has finally come. At this stage I
+							present you with the final product over a cup of
+							coffee. We test the functionality of the system with
+							some of your users and determine whether it
+							addresses their needs and making small adjustments
+							here and there to perfection.
 						</Typography>
 					</div>
 				</div>

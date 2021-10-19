@@ -33,23 +33,19 @@
 			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/node.png"
 		},
 		{
-			"name": "php",
-			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/php.png"
-		},
-		{
 			"name": "python",
 			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/python.png"
+		},
+		{
+			"name": "php",
+			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/php.png"
 		},
 		{
 			"name": "django",
 			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/django.png"
 		},
 		{
-			"name": "mongo db",
-			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/mongo.png"
-		},
-		{
-			"name": "sql db",
+			"name": "sql & nosql dbs",
 			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/sql.png"
 		},
 		{
@@ -59,10 +55,6 @@
 		{
 			"name": "git & github",
 			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/git.png"
-		},
-		{
-			"name": "npm",
-			"url": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/npm.png"
 		},
 		{
 			"name": "linux & terminal",

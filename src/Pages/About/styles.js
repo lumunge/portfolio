@@ -138,6 +138,7 @@ export default makeStyles(() => ({
 	icon: {
 		width: "60px",
 		height: "60px",
+		borderRadius: "10px",
 		"&:hover": {
 			color: "#f39c12",
 			transition: "all .4s ease-in-out",
@@ -147,7 +148,7 @@ export default makeStyles(() => ({
 	iconImg: {
 		height: "100%",
 		width: "100%",
-		// borderRadius: "50%",
+		borderRadius: "10px",
 	},
 	reachOut: {
 		color: "#fff",

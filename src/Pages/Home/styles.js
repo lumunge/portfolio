@@ -94,7 +94,7 @@ export default makeStyles(() => ({
 		},
 	},
 	details: {
-		padding: "2rem 0 0 4rem",
+		padding: "2rem 2rem 0 4rem",
 		width: "50%",
 		"@media (max-width: 780px)": {
 			padding: "1rem",

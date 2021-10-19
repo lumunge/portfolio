@@ -3,7 +3,7 @@
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/cocktailer.png",
 			"tags": "frontend development / API / cocktails",
-			"url": "https://elated-volhard-88e9b3.netlify.app/",
+			"url": "https://cocktailer.netlify.app/",
 			"github": "https://github.com/lumunge/Cocktailer",
 			"title": "Cocktailer",
 			"description": "Thirsty, and have various ingredients at home and want to try something new, check out the website for free directions on how to make a cocktails at home from expert bartenders from around the world, No matter if you are looking for a classic cocktails or an original mix. There is something for everyone and every occassion. Just shake, blend, stir and pour away."
@@ -27,7 +27,7 @@
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/movieApp.png",
 			"tags": "frontend development / movies / API / social sharing",
-			"url": "https://gallant-albattani-ce1704.netlify.app/",
+			"url": "https://imovie-shop.netlify.app/",
 			"github": "https://github.com/lumunge/Movie-App",
 			"title": "Movie App",
 			"description": "A simple react movie app to search for latest movies from the movie db and added sharing functionalities to share with friends on facebook just by the click of a button."

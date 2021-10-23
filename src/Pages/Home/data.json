@@ -1,7 +1,7 @@
 {
 	"caseStudies": [
 		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/CarZ.png",
+			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/AutoPep.png",
 			"tags": "frontend development / backend development / chat / users",
 			"url": "https://autopep.netlify.app/",
 			"github": "http://lumunge.github.io/",

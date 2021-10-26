@@ -48,14 +48,22 @@ const Resources = () => {
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
-						<Typography variant="h4">Videos & Podcasts</Typography>
+						<Typography variant="h4">Videos, Podcasts & Documentaries</Typography>
 						<a
-							href="https://www.youtube.com/watch?v=nLmhmB6NzcM"
+							href="https://youtu.be/WXuK6gekU1Y"
 							target="_blank"
 							rel="noreferrer"
 							className={classes.link}
 						>
-							Solving 0/1 Knapsack Problem{" "}
+							Alpha go{" "}
+						</a>
+						<a
+							href="https://youtu.be/5dZ_lvDgevk"
+							target="_blank"
+							rel="noreferrer"
+							className={classes.link}
+						>
+							In the age if AI{" "}
 						</a>
 					</Paper>
 				</Grid>

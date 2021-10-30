@@ -55,7 +55,7 @@ const Resources = () => {
 							rel="noreferrer"
 							className={classes.link}
 						>
-							Alpha go{" "}
+							Alpha go.{" "}
 						</a>
 						<a
 							href="https://youtu.be/5dZ_lvDgevk"
@@ -63,7 +63,15 @@ const Resources = () => {
 							rel="noreferrer"
 							className={classes.link}
 						>
-							In the age if AI{" "}
+							In the age if AI.{" "}
+						</a>
+						<a
+							href="https://youtu.be/1-TZqOsVCNM"
+							target="_blank"
+							rel="noreferrer"
+							className={classes.link}
+						>
+							How to get rich.{" "}
 						</a>
 					</Paper>
 				</Grid>

@@ -44,6 +44,15 @@ const Resources = () => {
 							{" "}
 							Thinking like a programmer{" "}
 						</a>
+	                    <a
+							href="https://towardsdatascience.com/10-graph-algorithms-visually-explained-e57faa1336f3"
+							target="_blank"
+							rel="noreferrer"
+							className={classes.link}
+						>
+							{" "}
+							Graph algorithms{" "}
+						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

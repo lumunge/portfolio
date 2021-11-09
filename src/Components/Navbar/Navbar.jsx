@@ -57,7 +57,7 @@ const Navbar = () => {
 					>
 						<a
 							className={classes.resume}
-							href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+							href="https://iq.opengenus.org/author/erick/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -111,7 +111,7 @@ const Navbar = () => {
 						>
 							<a
 							className={classes.resume}
-							href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+							href="https://iq.opengenus.org/author/erick/"
 							target="_blank"
 							rel="noreferrer"
 						>

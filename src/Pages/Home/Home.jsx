@@ -210,7 +210,8 @@ const Home = () => {
 					</Button>
 				</div>
 			</div>
-			<div className={classes.contact}>
+
+			{/* <div className={classes.contact}>
 				<Typography variant="h4">LET'S WORK TOGETHER</Typography>
 				<Button variant="contained" className={classes.start}>
 					<a
@@ -222,7 +223,7 @@ const Home = () => {
 						Start a project
 					</a>
 				</Button>
-			</div>
+			</div> */}
 		</Container>
 	);
 };

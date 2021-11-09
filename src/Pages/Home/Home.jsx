@@ -36,7 +36,7 @@ const Home = () => {
 					/>
 				</div>
 			</div>
-			<div>
+			{/* <div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>
 						<Typography className={classes.caption}>
@@ -138,7 +138,7 @@ const Home = () => {
 						</Typography>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			<div>
 				<Typography className={classes.caption}>

@@ -48,23 +48,21 @@ const Navbar = () => {
 					<Button
 						className={classes.navLinks}
 						component={Link}
-						to="/about"
-					>
-						About
-					</Button>
-					<Button
-						className={classes.navLinks}
-						component={Link}
 						to="/resources"
 					>
 						Resources
 					</Button>
 					<Button
 						className={classes.navLinks}
-						component={Link}
-						to="/contact"
 					>
-						Contact
+						<a
+							className={classes.resume}
+							href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Blog
+						</a>
 					</Button>
 					<Button className={classes.navLinks}>
 						<a
@@ -104,23 +102,21 @@ const Navbar = () => {
 						<MenuItem
 							onClick={handleClose}
 							component={Link}
-							to="/about"
-						>
-							about
-						</MenuItem>
-						<MenuItem
-							onClick={handleClose}
-							component={Link}
 							to="/resources"
 						>
 							resources
 						</MenuItem>
 						<MenuItem
 							onClick={handleClose}
-							component={Link}
-							to="/contact"
 						>
-							contact
+							<a
+							className={classes.resume}
+							href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/docs/LumungeResume.pdf"
+							target="_blank"
+							rel="noreferrer"
+						>
+							blog
+						</a>
 						</MenuItem>
 						<MenuItem onClick={handleClose}>
 							<a

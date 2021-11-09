@@ -6,7 +6,6 @@ import Scroll from "./Components/Scroll";
 // pages
 import Home from "./Pages/Home/Home";
 import Work from "./Pages/Work/Work";
-import About from "./Pages/About/About";
 import Resources from "./Pages/Resources/Resources";
 import "./index.css";
 
@@ -18,7 +17,6 @@ const App = () => {
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route exact path="/work" component={Work} />
-					<Route exact path="/about" component={About} />
 					<Route exact path="/resources" component={Resources} />
 				</Switch>
 				<Footer />

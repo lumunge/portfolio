@@ -72,7 +72,7 @@ const Resources = () => {
 							rel="noreferrer"
 							className={classes.link}
 						>
-							In the age if AI.{" "}
+							In the age of AI.{" "}
 						</a>
 						<a
 							href="https://youtu.be/1-TZqOsVCNM"
@@ -90,7 +90,7 @@ const Resources = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://www.amazon.com/gp/product/014312417X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=014312417X&linkCode=as2&tag=lumunge-20&linkId=a387334847b14cbfc0bcb496d8db0541"
+							href="https://www.pdfdrive.com/mastery-e156695001.html"
 							className={classes.link}
 						>
 							Mastery - Robert Greene{" "}
@@ -98,10 +98,10 @@ const Resources = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://www.amazon.com/gp/product/0465094279/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0465094279&linkCode=as2&tag=lumunge-20&linkId=3dd936f7bd18f1f92a3fa64f913eeb88"
+							href="https://www.pdfdrive.com/the-master-algorithm-how-the-quest-for-the-ultimate-learning-machine-will-remake-our-world-e158721606.html"
 							className={classes.link}
 						>
-							The Master Algorithm{" "}
+							The Master Algorithm - Pedro Domingos{" "}
 						</a>
 					</Paper>
 				</Grid>
@@ -116,13 +116,37 @@ const Resources = () => {
 							href="https://leetcode.com/study-plan/"
 							className={classes.link}
 						>
-							DSA
+							DSA Problems
+						</a>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://classroom.udacity.com/courses/ud281"
+							className={classes.link}
+						>
+							High performance computing
 						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>
 					<Paper elevation={4} className={classes.paper}>
-						<Typography variant="h4">Papers</Typography>
+						<Typography variant="h4">Papers & Publications</Typography>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://arxiv.org/ftp/arxiv/papers/2109/2109.01719.pdf"
+							className={classes.link}
+						>
+						Quick sort comparative analysis
+						</a>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.researchgate.net/publication/2928615_Parallelized_QuickSort_with_Optimal_Speedup"
+							className={classes.link}
+						>
+						Parallel quick sort
+						</a>
 					</Paper>
 				</Grid>
 			</Grid>

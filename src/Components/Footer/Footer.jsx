@@ -5,7 +5,7 @@ import {
 } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import MailIcon from "@material-ui/icons/Mail";
+import Code from "@material-ui/icons/Code";
 import useStyles from "./styles";
 
 const Footer = () => {
@@ -32,9 +32,9 @@ const Footer = () => {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="lumungep12@gmail.com"
+						href="https://leetcode.com/lumunge/"
 					>
-						<BottomNavigationAction icon={<MailIcon />} />
+						<BottomNavigationAction icon={<Code />} />
 					</a>
 				</div>
 			</BottomNavigation>

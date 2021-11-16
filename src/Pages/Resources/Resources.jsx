@@ -147,6 +147,14 @@ const Resources = () => {
 						>
 						Parallel quick sort
 						</a>
+                        <a
+							target="_blank"
+							rel="noreferrer"
+							href="https://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf"
+							className={classes.link}
+						>
+						Jump consistent hash
+						</a>
 					</Paper>
 				</Grid>
 			</Grid>

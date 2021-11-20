@@ -18,14 +18,11 @@ const Home = () => {
 						Web Developer, Programmer
 					</Typography>
 					<Typography className={classes.about} variant="h5">
-						I am an
+						I am a passionate
 						<span className={classes.highlights}>
-							experienced web developer, programmer
+							 web developer, programmer
 						</span>{" "}
-						with 3 years developing software from simple 'hello
-						world' programs to complex multi-user web applications.
-						I have a background in computer science, and love
-						cycling, chess and solving puzzles.
+						with  a background in computer science.
 					</Typography>
 				</div>
 				<div className={classes.profile}>

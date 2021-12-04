@@ -103,6 +103,14 @@ const Resources = () => {
 						>
 							The Master Algorithm - Pedro Domingos{" "}
 						</a>
+                        <a
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.pdfdrive.com/proofs-from-the-book-e187764235.html"
+							className={classes.link}
+						>
+							Proofs from the book{" "}
+						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

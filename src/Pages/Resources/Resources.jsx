@@ -134,6 +134,15 @@ const Resources = () => {
 						>
 							High performance computing
 						</a>
+                        <a
+							target="_blank"
+							rel="noreferrer"
+							href="http://algorithmexamples.com/"
+							className={classes.link}
+						>
+							Algorithms Examples
+						</a>
+
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

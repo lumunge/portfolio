@@ -4,9 +4,17 @@
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/AutoPep.png",
 			"tags": "frontend development / backend development / chat / users",
 			"url": "https://autopep.netlify.app/",
-			"github": "http://lumunge.github.io/",
-			"title": "Automotive Enthusiast",
+			"github": "https://github.com/lumunge",
+			"title": "Autopep",
 			"description": "This app connects automotive enthusiasts who have a passionate interest in cars and or other motovehicles or anything associated with them such as their manufacturers and the sort and takes pleasure in enjoying and appreciating them beyond their basic function of transportation. It includes a chat feature where by users can connect on the platform and share their opinions. It also has social features such as likes."
+		},
+		{
+			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",
+			"tags": "frontend development / react / real estate",
+			"url": "https://spacious-living.netlify.app/",
+			"github": "https://github.com/lumunge",
+			"title": "Spacious Living",
+			"description": "With this web-app, you don't have to pay full rent, you can opt to find a suitable roomate on the platform and split rent two ways or even four ways. For home owners and landlords, it offers a platform to advertise your space. It has a social feature where users can chat to establish rapport which improves the chances of finding perfect roommate."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/ecommerce.png",
@@ -15,14 +23,6 @@
 			"github": "https://github.com/lumunge/E_Commerce-Bakery-Shop",
 			"title": "Bakery Shop",
 			"description": "A client wanted to scale the business to reach a wider range of clientel and the e-comerce store was more than expected. Clients dont have to leave their comfort to make a booking and the baker has time to focus fully on the creative work fully."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",
-			"tags": "frontend development / recipes / API",
-			"url": "https://lumunge.github.io/Chief-Chef/ ",
-			"github": "https://github.com/lumunge/Chief-Chef",
-			"title": "Chief Chef",
-			"description": "Dont know what to cook for a loved one or trying something new in the kitchen. This app is your kitchen companion. It offers over 300 recipes with instructions, ingredients and a video tutorial on how to prepare a dish. Have a blast."
 		}
 	]
 }

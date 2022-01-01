@@ -142,7 +142,22 @@ const Resources = () => {
 						>
 							Algorithms Examples
 						</a>
-
+                        <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.vssut.ac.in/lecture_notes/lecture1422914957.pdf"
+                        className={classes.link}
+                    >
+                        Compiler Design
+                    </a>
+                        <a
+							target="_blank"
+							rel="noreferrer"
+							href="https://groups.seas.harvard.edu/courses/cs153/2019fa/lectures/Lec19-Optimization.pdf"
+							className={classes.link}
+						>
+							Compiler Optimizations.
+						</a>
 					</Paper>
 				</Grid>
 				<Grid item xs={12} sm={12} md={6}>

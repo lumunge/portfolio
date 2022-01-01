@@ -14,7 +14,7 @@
 			"url": "https://github.com/lumunge",
 			"github": "https://github.com/lumunge",
 			"title": "Arbitrage Betting Software",
-			"description": "This is a cli tool built with python and sql which collects data from various betting sites and present available arbitrage opportunies. So far, it does this across 5 sites with 5 leagues each game giving over 50 combinations."
+			"description": "This is a cli tool built with python and sql which collects data from various betting sites and present available arbitrage opportunities. So far, it does this across 5 sites with 5 leagues each game giving over 50 combinations."
 		},
 		{
 			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",

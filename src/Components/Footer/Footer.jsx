@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 			</BottomNavigation>
 			<div className={classes.footerDetails}>
-				<Typography>all rights reserved @2021 lumunge</Typography>
+				<Typography>all rights reserved @2022 lumunge</Typography>
 			</div>
 		</div>
 	);

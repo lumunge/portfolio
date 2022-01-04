@@ -11,6 +11,8 @@ import useStyles from "./styles";
 const Footer = () => {
 	const classes = useStyles();
 
+	let date = new Date().getFullYear();
+
 	return (
 		<div className={classes.footer}>
 			<BottomNavigation>
@@ -39,7 +41,7 @@ const Footer = () => {
 				</div>
 			</BottomNavigation>
 			<div className={classes.footerDetails}>
-				<Typography>Copyright @ <script>document.write(/\d{4}/.exec(Date())[0])</script> lumunge</Typography>
+				<Typography>Copyright @ {date} lumunge</Typography>
 			</div>
 		</div>
 	);

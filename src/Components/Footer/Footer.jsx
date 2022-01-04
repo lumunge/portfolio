@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 			</BottomNavigation>
 			<div className={classes.footerDetails}>
-				<Typography>all rights reserved @2022 lumunge</Typography>
+				<Typography>Copyright @ <script>document.write(/\d{4}/.exec(Date())[0])</script> lumunge</Typography>
 			</div>
 		</div>
 	);

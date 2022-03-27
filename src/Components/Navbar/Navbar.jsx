@@ -95,7 +95,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                blog
+                Articles
               </a>
             </MenuItem>
             <MenuItem onClick={handleClose}>

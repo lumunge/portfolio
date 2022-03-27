@@ -6,34 +6,41 @@ import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
 
 const Home = () => {
-	const classes = useStyles();
-	const [cases] = useState(data.caseStudies);
+  const classes = useStyles();
+  const [cases] = useState(data.caseStudies);
 
-	return (
-		<Container className={classes.mainContainer}>
-			<div className={classes.intro}>
-				<div className={classes.introInfo}>
-					<Typography className={classes.caption}>whoami</Typography>
-					<Typography variant="h2" className={classes.title}>
-						Web Developer, Programmer
-					</Typography>
-					<Typography className={classes.about} variant="h5">
-						I am a passionate
-						<span className={classes.highlights}>
-							 web developer, programmer
-						</span>{" "}
-						with  a background in computer science.
-					</Typography>
-				</div>
-				<div className={classes.profile}>
-					<img
-						className={classes.profileImg}
-						src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"
-						alt="lumunge_image"
-					/>
-				</div>
-			</div>
-			{/* <div>
+  return (
+    <Container className={classes.mainContainer}>
+      <div className={classes.intro}>
+        <div className={classes.introInfo}>
+          <Typography className={classes.caption}>whoami</Typography>
+          <Typography variant="h2" className={classes.title}>
+            lumunge
+          </Typography>
+          <Typography className={classes.about} variant="h5">
+            I am a passionate and curious
+            <span className={classes.highlights}>programmer</span> with a
+            background in computer science.
+          </Typography>
+          <Typography variant="h6">
+            I am fond of technology and the disruption it brings. I take the
+            leap every day to improve myself not just for personal reasons but
+            because I understand the impact one can make with technology to
+            change the lives of those around them. Life was meant to be easy and
+            technology solves that problem every day. I love a game of chess,
+            coding, puzzles, cycling, Linux, problem-solving, writing, and
+            mindfulness.
+          </Typography>
+        </div>
+        <div className={classes.profile}>
+          <img
+            className={classes.profileImg}
+            src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"
+            alt="lumunge_image"
+          />
+        </div>
+      </div>
+      {/* <div>
 				<div className={classes.cta}>
 					<div className={classes.cta1}>
 						<Typography className={classes.caption}>
@@ -137,78 +144,64 @@ const Home = () => {
 				</div>
 			</div> */}
 
-			<div>
-				<Typography className={classes.caption}>
-					problems solved
-				</Typography>
-				<Typography variant="h2" className={classes.h2}>
-					Case Studies
-				</Typography>
+      <div>
+        <Typography className={classes.caption}>problems solved</Typography>
+        <Typography variant="h2" className={classes.h2}>
+          Case Studies
+        </Typography>
 
-				{cases.map((study, index) => (
-					<Paper elevation={3} className={classes.paper} key={index}>
-						<div className={classes.imgContainer}>
-							<a
-								href={study.image}
-								rel="noreferrer"
-								target="_blank"
-							>
-								<img
-									className={classes.projectImage}
-									src={study.image}
-									alt="project"
-								/>
-							</a>
-						</div>
-						<div className={classes.details}>
-							<Typography variant="button">
-								{study.tags}
-							</Typography>
-							<br />
-							<br />
-							<Typography variant="h5">{study.title}</Typography>
-							<Typography variant="subtitle">
-								{study.description}
-							</Typography>
-							<br />
-							<br />
-							<br />
-							<Button variant="contained">
-								<a
-									href={study.url}
-									rel="noreferrer"
-									target="_blank"
-									className={classes.link}
-								>
-									View Site
-								</a>
-							</Button>
-							{"  "}
-							<Button variant="contained">
-								<a
-									href={study.github}
-									rel="noreferrer"
-									target="_blank"
-									className={classes.link}
-								>
-									Source
-								</a>
-							</Button>
-						</div>
-					</Paper>
-				))}
-				<div className={classes.more}>
-					<Button
-						className={classes.moreBtn}
-						component={Link}
-						to="/work"
-					>
-						<MoreHoriz className={classes.moreIcon} />
-					</Button>
-				</div>
-			</div>
+        {cases.map((study, index) => (
+          <Paper elevation={3} className={classes.paper} key={index}>
+            <div className={classes.imgContainer}>
+              <a href={study.image} rel="noreferrer" target="_blank">
+                <img
+                  className={classes.projectImage}
+                  src={study.image}
+                  alt="project"
+                />
+              </a>
+            </div>
+            <div className={classes.details}>
+              <Typography variant="button">{study.tags}</Typography>
+              <br />
+              <br />
+              <Typography variant="h5">{study.title}</Typography>
+              <Typography variant="subtitle">{study.description}</Typography>
+              <br />
+              <br />
+              <br />
+              <Button variant="contained">
+                <a
+                  href={study.url}
+                  rel="noreferrer"
+                  target="_blank"
+                  className={classes.link}
+                >
+                  View Site
+                </a>
+              </Button>
+              {"  "}
+              <Button variant="contained">
+                <a
+                  href={study.github}
+                  rel="noreferrer"
+                  target="_blank"
+                  className={classes.link}
+                >
+                  Source
+                </a>
+              </Button>
+            </div>
+          </Paper>
+        ))}
+        <div className={classes.more}>
+          <Button className={classes.moreBtn} component={Link} to="/work">
+            <MoreHoriz className={classes.moreIcon} />
+          </Button>
+        </div>
+      </div>
 
-			{/* <div className={classes.contact}>
+      {/* <div className={classes.contact}>
 				<Typography variant="h4">LET'S WORK TOGETHER</Typography>
 				<Button variant="contained" className={classes.start}>
 					<a
@@ -221,8 +214,8 @@ const Home = () => {
 					</a>
 				</Button>
 			</div> */}
-		</Container>
-	);
+    </Container>
+  );
 };
 
 export default Home;

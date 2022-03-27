@@ -1,60 +1,60 @@
 {
-	"caseStudies": [
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/boggle.png",
-			"tags": "Tries / Depth First Traversal / Recursion / C++ / Boggle board game",
-			"url": "https://github.com/lumunge/Boggle-Word-Solver",
-			"github": "https://github.com/lumunge/Boggle-Word-Solver",
-			"title": "Boggle Word Solver",
-			"description": "This solver implements the trie data structure to store words from the dictionary of words and uses the depth first search algorithm to traverse the trie tree to come up with words from a given input combination of characters."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/arb.png",
-			"tags": "Arbitrage Betting / Python / SQL / Sports /",
-			"url": "https://github.com/lumunge",
-			"github": "https://github.com/lumunge",
-			"title": "Arbitrage Betting Software",
-			"description": "This is a cli tool built with python and sql which collects data from various betting sites and present available arbitrage opportunities. So far, it does this across 5 sites with 5 leagues each game giving over 50 combinations."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",
-			"tags": "frontend development / recipes / API",
-			"url": "https://lumunge.github.io/Chief-Chef/",
-			"github": "https://github.com/lumunge/Chief-Chef",
-			"title": "Chief Chef",
-			"description": "Dont know what to cook for a loved one or trying something new in the kitchen. This app is your kitchen companion. It offers over 300 recipes with instructions, ingredients and a video tutorial on how to prepare a dish. Have a blast."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/cocktailer.png",
-			"tags": "frontend development / API / cocktails",
-			"url": "https://cocktailer.netlify.app/",
-			"github": "https://github.com/lumunge/Cocktailer",
-			"title": "Cocktailer",
-			"description": "Thirsty, and have various unused ingredients in you kitchen and want to try something new, check out the website for free directions on how to make a cocktails at home from expert bartenders from around the world, No matter if you are looking for a classic cocktails or an original mix. There is something for everyone and every occassion. Just shake, blend, stir and pour away."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/fiascoRestaurant.png",
-			"tags": "frontend development / psd conversion / web design",
-			"url": "https://fiasco-restaurant.vercel.app/",
-			"github": "https://github.com/lumunge/Fiasco-Restaurant",
-			"title": "Fiasco Restaurant",
-			"description": "We make alot of decisions in a single day and the more decisions we make the worse our decision making becomes. This site solves that but making your decision making easier by showcasing what the restaurant has to offer."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/everoRealEst.png",
-			"tags": "frontend development / psd conversion / web design / real-estate",
-			"url": "https://lumunge.github.io/Real-Estate-Website/",
-			"github": "https://github.com/lumunge/Real-Estate-Website",
-			"title": "Evero Real Estate",
-			"description": "This is a photoshop design conversion whereby i converted the PSD template to its code equivalent with SEO, responsive design for mobile phones and a beautiful UI that wil keep clients coming back."
-		},
-		{
-			"image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/movieApp.png",
-			"tags": "frontend development / movies / API / social sharing",
-			"url": "https://imovie-shop.netlify.app/",
-			"github": "https://github.com/lumunge/Movie-App",
-			"title": "Movie App",
-			"description": "A simple react movie app to search for latest movies from the movie db and added sharing functionalities to share with friends on facebook just by the click of a button."
-		}
-	]
+  "caseStudies": [
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/boggle.png",
+      "tags": "Tries / Depth First Traversal / Recursion / C++ / Boggle board game",
+      "url": "https://github.com/lumunge/Boggle-Word-Solver",
+      "github": "https://github.com/lumunge/Boggle-Word-Solver",
+      "title": "Boggle Word Solver",
+      "description": "This solver implements the trie data structure to store words from the dictionary of words and uses the depth first search algorithm to traverse the trie tree to come up with words from a given input combination of characters."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/arb.png",
+      "tags": "Python / Shell script / SQL / Data analysis /",
+      "url": "https://github.com/lumunge",
+      "github": "https://github.com/lumunge",
+      "title": "Arbitrage Betting Software",
+      "description": "This is a cli tool built with python and sql which collects data from various betting sites and present available arbitrage opportunities. So far, it does this across 5 sites with 5 leagues each game giving over 50 combinations."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/recipes.png",
+      "tags": "frontend development / React.js / CSS / Firebase / API /",
+      "url": "https://lumunge.github.io/Chief-Chef/",
+      "github": "https://github.com/lumunge/Chief-Chef",
+      "title": "Chief Chef",
+      "description": "Dont know what to cook for a loved one or trying something new in the kitchen. This app is your kitchen companion. It offers over 300 recipes with instructions, ingredients and a video tutorial on how to prepare a dish. Have a blast."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/cocktailer.png",
+      "tags": "frontend development / React.js / API / Material UI /",
+      "url": "https://cocktailer.netlify.app/",
+      "github": "https://github.com/lumunge/Cocktailer",
+      "title": "Cocktailer",
+      "description": "Thirsty, and have various unused ingredients in you kitchen and want to try something new, check out the website for free directions on how to make a cocktails at home from expert bartenders from around the world, No matter if you are looking for a classic cocktails or an original mix. There is something for everyone and every occassion. Just shake, blend, stir and pour away."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/fiascoRestaurant.png",
+      "tags": "frontend development / PSD conversion / CSS / Responsive design /",
+      "url": "https://fiasco-restaurant.vercel.app/",
+      "github": "https://github.com/lumunge/Fiasco-Restaurant",
+      "title": "Fiasco Restaurant",
+      "description": "We make alot of decisions in a single day and the more decisions we make the worse our decision making becomes. This site solves that but making your decision making easier by showcasing what the restaurant has to offer."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/everoRealEst.png",
+      "tags": "frontend development / PSD conversion / Responsive design / CSS /",
+      "url": "https://lumunge.github.io/Real-Estate-Website/",
+      "github": "https://github.com/lumunge/Real-Estate-Website",
+      "title": "Evero Real Estate",
+      "description": "This is a photoshop design conversion whereby i converted the PSD template to its code equivalent with SEO, responsive design for mobile phones and a beautiful UI that wil keep clients coming back."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/movieApp.png",
+      "tags": "frontend development / React.js / Social sharing / API /",
+      "url": "https://imovie-shop.netlify.app/",
+      "github": "https://github.com/lumunge/Movie-App",
+      "title": "Movie App",
+      "description": "A simple react movie app to search for latest movies from the movie db and added sharing functionalities to share with friends on facebook just by the click of a button."
+    }
+  ]
 }

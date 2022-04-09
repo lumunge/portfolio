@@ -9,6 +9,10 @@ import {
   MenuItem,
 } from "@material-ui/core";
 import SortIcon from "@material-ui/icons/Sort";
+import github from "../../img/github.png";
+import linkedin from "../../img/linkedin.png";
+import leetcode from "../../img/leetcode.png";
+import hackerrank from "../../img/hackerrank.png";
 import useStyles from "./styles";
 
 const Navbar = () => {
@@ -44,6 +48,9 @@ const Navbar = () => {
           <Button className={classes.navLinks} component={Link} to="/resources">
             Resources
           </Button>
+          {/* <Button className={classes.navLinks} component={Link} to="/articles">
+            Articles
+          </Button> */}
           <Button className={classes.navLinks}>
             <a
               className={classes.resume}
@@ -64,6 +71,40 @@ const Navbar = () => {
               Resume
             </a>
           </Button>
+        </div>
+        <div className={classes.socials}>
+          <div className={classes.icon}>
+            <a href="https://github.com/lumunge">
+              <img src={github} alt="github" className={classes.iconImage} />
+            </a>
+          </div>
+          <div className={classes.icon}>
+            <a href="https://www.linkedin.com/in/lumunge/">
+              <img
+                src={linkedin}
+                alt="linked in"
+                className={classes.iconImage}
+              />
+            </a>
+          </div>
+          <div className={classes.icon}>
+            <a href="https://leetcode.com/lumunge/">
+              <img
+                src={leetcode}
+                alt="leetcode"
+                className={classes.iconImage}
+              />
+            </a>
+          </div>
+          <div className={classes.icon}>
+            <a href="https://www.hackerrank.com/lumunge">
+              <img
+                src={hackerrank}
+                alt="hackerrank"
+                className={classes.iconImage}
+              />
+            </a>
+          </div>
         </div>
       </Toolbar>
       <div className={classes.responsive}>

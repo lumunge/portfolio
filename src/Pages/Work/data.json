@@ -1,6 +1,22 @@
 {
   "caseStudies": [
     {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/AutoPep.png",
+      "tags": "Frontend development / Backend Development / React.js / Firebase / Chat /",
+      "url": "https://autopep.netlify.app/",
+      "github": "https://github.com/lumunge",
+      "title": "Autopep",
+      "description": "This app connects automotive enthusiasts who have a passionate interest in cars and or other motovehicles or anything associated with them such as their manufacturers and the sort and takes pleasure in enjoying and appreciating them beyond their basic function of transportation. It includes a chat feature where by users can connect on the platform and share their opinions. It also has social features such as likes."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/spacious.png",
+      "tags": "Frontend development / React.js / Real estate /",
+      "url": "https://spacious-living.netlify.app/",
+      "github": "https://github.com/lumunge/Spacious-Living",
+      "title": "Spacious Living",
+      "description": "With this web-app, you don't have to pay full rent, you can opt to find a suitable roommate on the platform and split rent two ways or even four ways. For home owners and landlords, it offers a platform to advertise your space. It has a social feature where users can chat to establish rapport which improves the chances of finding perfect roommate."
+    },
+    {
       "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/boggle.png",
       "tags": "Tries / Depth First Traversal / Recursion / C++ / Boggle board game",
       "url": "https://github.com/lumunge/Boggle-Word-Solver",
@@ -11,8 +27,8 @@
     {
       "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/arb.png",
       "tags": "Python / Shell script / SQL / Data analysis /",
-      "url": "https://github.com/lumunge",
-      "github": "https://github.com/lumunge",
+      "url": "https://github.com/lumunge/Arb",
+      "github": "https://github.com/lumunge/Arb",
       "title": "Arbitrage Betting Software",
       "description": "This is a cli tool built with python and sql which collects data from various betting sites and present available arbitrage opportunities. So far, it does this across 5 sites with 5 leagues each game giving over 50 combinations."
     },

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
+import lumunge from "../../img/lumunge.jpg";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
@@ -35,7 +36,7 @@ const Home = () => {
         <div className={classes.profile}>
           <img
             className={classes.profileImg}
-            src="https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/loom.jpg"
+            src={lumunge}
             alt="lumunge_image"
           />
         </div>

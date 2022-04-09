@@ -1,28 +1,36 @@
 {
   "caseStudies": [
     {
-      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/AutoPep.png",
-      "tags": "Frontend development / backend development / React.js / Firebase / Chat /",
-      "url": "https://autopep.netlify.app/",
-      "github": "https://github.com/lumunge",
-      "title": "Autopep",
-      "description": "This app connects automotive enthusiasts who have a passionate interest in cars and or other motovehicles or anything associated with them such as their manufacturers and the sort and takes pleasure in enjoying and appreciating them beyond their basic function of transportation. It includes a chat feature where by users can connect on the platform and share their opinions. It also has social features such as likes."
-    },
-    {
-      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/spacious.png",
-      "tags": "frontend development / React.js / real estate / Node.js",
-      "url": "https://spacious-living.netlify.app/",
-      "github": "https://github.com/lumunge",
-      "title": "Spacious Living",
-      "description": "With this web-app, you don't have to pay full rent, you can opt to find a suitable roommate on the platform and split rent two ways or even four ways. For home owners and landlords, it offers a platform to advertise your space. It has a social feature where users can chat to establish rapport which improves the chances of finding perfect roommate."
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/dsavisualpage.png",
+      "tags": "Data structures / Algorithms / Graph Algorithms / Visualization / Typescript /",
+      "url": "https://lumunge.github.io/Graph-Algorithms-Visualization/index.html ",
+      "github": "https://github.com/lumunge/Graph-Algorithms-Visualization",
+      "title": " Graph-Algorithms-Visualization",
+      "description": "This is a visualization of common graph algorithms. Graph Traversal Algorithms such as breadth-first search and depth-first search and Shortest Path Algorithms such as dijkstra's and bellman ford's algorithm. In addition to this we solve a few programming problems using the graph algorithms."
     },
     {
       "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/ecommerce.png",
-      "tags": "frontend development / backend development / React.js / Node.js / CSS / ecommerce /",
+      "tags": "Frontend Development / Backend Development / React / Node / API / Ecommerce /",
       "url": "https://pastry-lvrs.netlify.app/",
       "github": "https://github.com/lumunge/E_Commerce-Bakery-Shop",
       "title": "Bakery Shop",
       "description": "A client wanted to scale the business to reach a wider range of clientel and the e-comerce store was more than expected. Clients dont have to leave their comfort to make a booking and the baker has time to focus fully on the creative work fully."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/rest1.png",
+      "tags": "Backend Development / Node / API / MongoDB / Heroku /",
+      "url": "https://github.com/lumunge/Bakery-Backend-API",
+      "github": "https://github.com/lumunge/Bakery-Backend-API",
+      "title": "Bakery Backend API",
+      "description": "A client wanted to scale the business to reach a wider range of clientel and the e-comerce store was more than expected. Clients dont have to leave their comfort to make a booking and the baker has time to focus fully on the creative work fully."
+    },
+    {
+      "image": "https://raw.githubusercontent.com/lumunge/portfolio/master/src/img/rest.jpg",
+      "tags": "Backend Development / Node / API / Typescript / MongoDB / Redis / Heroku /",
+      "url": "https://github.com/lumunge/Blog-RestApi",
+      "github": "https://github.com/lumunge/Blog-RestApi",
+      "title": "Rest API",
+      "description": "This is a Node API for a blog where by users can sign up and sign in and perform CRUD operations on posts in a MongoDB database."
     }
   ]
 }

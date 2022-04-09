@@ -74,6 +74,7 @@ const Resources = () => {
             <ul>
               <li>Donald Knuth - AOCP Volumes</li>
               <li>Competitive programmer's handbook - Antti Laaksonen</li>
+              <li>Automate the boring stuff with python - Al Sweigart</li>
               <li>Algorithms in a Nutshell - George T. Heineman</li>
               <li>The algorithm design manual - Steven S. Skiena</li>
               <li>Clean Code - Robert C. Martin</li>

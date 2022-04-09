@@ -6,7 +6,7 @@ import Scroll from "./Components/Scroll";
 // pages
 import Home from "./Pages/Home/Home";
 import Work from "./Pages/Work/Work";
-import Articles from "./Pages/Articles/Articles";
+// import Articles from "./Pages/Articles/Articles";
 import Resources from "./Pages/Resources/Resources";
 import "./index.css";
 

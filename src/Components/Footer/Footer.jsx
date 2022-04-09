@@ -1,8 +1,4 @@
-import {
-  BottomNavigation,
-  BottomNavigationAction,
-  Typography,
-} from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import leetcode from "../../img/leetcode.png";

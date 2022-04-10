@@ -77,12 +77,20 @@ const Navbar = () => {
         </div>
         <div className={classes.socials}>
           <div className={classes.icon}>
-            <a href="https://github.com/lumunge">
+            <a
+              href="https://github.com/lumunge"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={github} alt="github" className={classes.iconImage} />
             </a>
           </div>
           <div className={classes.icon}>
-            <a href="https://www.linkedin.com/in/lumunge/">
+            <a
+              href="https://www.linkedin.com/in/lumunge/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={linkedin}
                 alt="linked in"
@@ -91,7 +99,11 @@ const Navbar = () => {
             </a>
           </div>
           <div className={classes.icon}>
-            <a href="https://leetcode.com/lumunge/">
+            <a
+              href="https://leetcode.com/lumunge/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={leetcode}
                 alt="leetcode"
@@ -100,7 +112,11 @@ const Navbar = () => {
             </a>
           </div>
           <div className={classes.icon}>
-            <a href="https://www.hackerrank.com/lumunge">
+            <a
+              href="https://www.hackerrank.com/lumunge"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={hackerrank}
                 alt="hackerrank"

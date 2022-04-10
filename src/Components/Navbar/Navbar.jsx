@@ -64,13 +64,16 @@ const Navbar = () => {
           <Button className={classes.navLinks}>
             <a
               className={classes.resume}
-              href="https://ke.linkedin.com/in/lumunge"
+              href="https://lumunge.github.io/portfolio/src/Files/lumungeResume.pdf"
               target="_blank"
               rel="noreferrer"
             >
               Resume
             </a>
           </Button>
+          {/* <Button className={classes.navLinks} component={Link} to="/resume">
+            Resume
+          </Button> */}
         </div>
         <div className={classes.socials}>
           <div className={classes.icon}>
@@ -142,13 +145,16 @@ const Navbar = () => {
             <MenuItem onClick={handleClose}>
               <a
                 className={classes.resume}
-                href="https://ke.linkedin.com/in/lumunge"
+                href="https://lumunge.github.io/portfolio/src/Files/lumungeResume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
                 resume
               </a>
             </MenuItem>
+            {/* <MenuItem onClick={handleClose} component={Link} to="/resume">
+              resume
+            </MenuItem> */}
           </Menu>
         </div>
       </div>

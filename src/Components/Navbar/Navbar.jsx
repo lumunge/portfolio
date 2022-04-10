@@ -64,7 +64,7 @@ const Navbar = () => {
           <Button className={classes.navLinks}>
             <a
               className={classes.resume}
-              href="https://lumunge.github.io/portfolio/src/Files/lumungeResume.pdf"
+              href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/Files/lumungeResume.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -145,7 +145,7 @@ const Navbar = () => {
             <MenuItem onClick={handleClose}>
               <a
                 className={classes.resume}
-                https:href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/Files/lumungeResume.pdf"
+                href="https://raw.githubusercontent.com/lumunge/portfolio/master/src/Files/lumungeResume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

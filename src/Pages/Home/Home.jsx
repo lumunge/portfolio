@@ -5,6 +5,10 @@ import lumunge from "../../img/lumunge.jpg";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
+import github from "../../img/github.png";
+import linkedin from "../../img/linkedin.png";
+import leetcode from "../../img/leetcode.png";
+import hackerrank from "../../img/hackerrank.png";
 
 const Home = () => {
   const classes = useStyles();
@@ -12,26 +16,35 @@ const Home = () => {
 
   return (
     <Container className={classes.mainContainer}>
-      <div className={classes.intro}>
-        <div className={classes.introInfo}>
-          <Typography className={classes.caption}>whoami</Typography>
-          <Typography variant="h2" className={classes.title}>
-            lumunge
-          </Typography>
-          <Typography className={classes.about} variant="h5">
-            I am a passionate and curious
-            <span className={classes.highlights}>programmer</span> with a
-            background in computer science.
-          </Typography>
-          <Typography variant="h6">
-            I am fond of technology and the disruption it brings. I take the
-            leap every day to improve myself not just for personal reasons but
-            because I understand the impact one can make with technology to
-            change the lives of those around them. Life was meant to be easy and
-            technology solves that problem every day. I love a game of chess,
-            coding, puzzles, cycling, Linux, problem-solving, writing, and
-            mindfulness.
-          </Typography>
+      <div className={classes.profileCard}>
+        <div className={classes.backImage}> </div>
+        <div className={classes.intro}>
+          <div className={classes.introInfo}>
+            <header>
+              <Typography className={classes.profileCaption}>whoami</Typography>
+            </header>
+            <div className={classes.name}>
+              <Typography variant="h2" className={classes.title}>
+                lumunge
+              </Typography>
+            </div>
+            <div className={classes.info}>
+              <Typography className={classes.about} variant="h5">
+                I am a passionate and curious
+                <span className={classes.highlights}>programmer</span> with a
+                background in computer science.
+              </Typography>
+              <Typography variant="h6">
+                I am fond of technology and the disruption it brings. I take the
+                leap every day to improve myself not just for personal reasons
+                but because I understand the impact one can make with technology
+                to change the lives of those around them. Life was meant to be
+                easy and technology solves that problem every day. I love a game
+                of chess, coding, puzzles, cycling, Linux, problem-solving,
+                writing, and mindfulness.
+              </Typography>
+            </div>
+          </div>
         </div>
         <div className={classes.profile}>
           <img

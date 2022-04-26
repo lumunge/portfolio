@@ -49,14 +49,12 @@ export default makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    // width: "100px",
     position: "absolute",
     right: "0",
     float: "right",
     padding: "0 4rem 0 0",
     "@media (max-width: 1420px)": {
       display: "none",
-      // backgroundColor: "red",
     },
   },
   icon: {

@@ -1,4 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
+import backImg from "../../img/backImg.jpg";
 
 export default makeStyles(() => ({
   mainContainer: {
@@ -7,71 +8,86 @@ export default makeStyles(() => ({
     alignItems: "center",
     justifyContent: "center",
   },
-  intro: {
+  profileCard: {
     display: "flex",
-    alignItems: "center",
-    height: "100vh",
+    marginTop: "10rem",
+    marginBottom: "4rem",
     width: "100%",
-    "@media (min-width: 300px)": {
-      margin: "3rem 0",
-      width: "100%",
-      height: "100%",
+    backgroundColor: "rgba(189, 195, 199, 0.1)",
+    borderRadius: "5px",
+    "@media (max-width: 780px)": {
       display: "flex",
       flexDirection: "column-reverse",
-      justifyContent: "center",
-    },
-    // "@media (min-width: 768px)": {
-    // },
-    "@media (min-width: 992px)": {
-      margin: "3rem 0",
       width: "100%",
-      height: "100%",
-      display: "flex",
-      flexDirection: "row",
+      marginTop: "6rem",
+      marginBottom: "4rem",
     },
-    // "@media (min-width: 1200px)": {
-    // },
+  },
+  backImage: {
+    width: "30%",
+    backgroundImage: `url(${backImg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    borderRadius: "5px 0 0 5px",
+    "@media (max-width: 780px)": {
+      display: "none",
+    },
+  },
+  intro: {
+    width: "70%",
+    "@media (max-width: 780px)": {
+      width: "100%",
+      paddingTop: "4rem",
+    },
   },
   introInfo: {
-    width: "50%",
-    paddingRight: "3rem",
-    "@media (min-width: 300px)": {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      textAlign: "center",
-      width: "100%",
-      padding: 0,
+    paddingBottom: "1rem",
+    "@media (max-width: 780px)": {
+      paddingTop: "2rem",
     },
   },
-  title: {
-    textAlign: "center",
-    color: "#f39c12",
+  name: {
+    paddingLeft: "5rem",
+  },
+  info: {
+    padding: "0 2rem 0 5rem",
     "@media (max-width: 780px)": {
-      fontSize: "2rem",
+      padding: "0 1rem",
+    },
+  },
+  header: {
+    textAlign: "right",
+  },
+  profileCaption: {
+    color: "#f39c12",
+    textAlign: "right",
+    padding: "2rem 2rem 0 0",
+    "@media (max-width: 780px)": {
+      textAlign: "left",
+      paddingLeft: "1rem",
     },
   },
   about: {
     lineHeight: "3rem",
   },
   profile: {
-    width: "50%",
-    padding: "4rem 2rem",
-    "@media (min-width: 300px)": {
-      width: "100%",
-      marginBottom: "3rem",
-    },
-    "@media (min-width: 768px)": {
-      width: "100%",
+    position: "relative",
+    right: "68%",
+    width: "200px",
+    height: "200px",
+    "@media (max-width: 780px)": {
+      position: "relative",
+      left: "0",
+      top: "100px",
+      margin: "0 auto",
     },
   },
   profileImg: {
     width: "100%",
-    height: "550px",
+    height: "100%",
     borderRadius: "50%",
     objectFit: "cover",
-    "@media (min-width: 300px)": {
+    "@media (min-width: 780px)": {
       objectFit: "cover",
       width: "100%",
     },
@@ -197,6 +213,5 @@ export default makeStyles(() => ({
   },
   caption: {
     color: "#f39c12",
-    paddingBottom: "1rem",
   },
 }));

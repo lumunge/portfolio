@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.footerDetails}>
-        <Typography>Copyright @ {date} lumunge</Typography>
+        <Typography>lumunge @ {date}</Typography>
       </div>
     </div>
   );

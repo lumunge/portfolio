@@ -1,0 +1,46 @@
+{
+  "caseStudies": [
+    {
+      "title": "Lead React Software Developer",
+      "sub-title": "Creme Cakes",
+      "timestamp1": "December 2020 - September 2022",
+      "timestamp2": "1 yrs 9 mos",
+      "roles": [
+        "Working with clients to develop the overall look and design of a website.",
+        "Convert PSD template to website code with programming languages React js, HTML5, CSS3",
+        "Creating, maintaining and modifying websites and UI using React js.",
+        "Creating reusable components using react js that could be used in future feature development.",
+        "Ensuring site accessibility across all platforms, including laptops and smartphones",
+        "Testing site for ease of use, speed and other quality factors such as browser compatibility and mobile responsiveness.",
+        "Fixing any site issues and bugs that may come up during testing.",
+        "Collaborated with graphic designer to come up with a functioning aesthetic website.",
+        "Maintaining brand consistency throughout the design of the website."
+      ]
+    },
+    {
+      "title": "Lead Full-stack Software Developer",
+      "sub-title": "Fiasco Restaurants",
+      "timestamp1": "February 2022 - April 2022",
+      "timestamp2": "3 mos",
+      "roles": [
+        "Orders to the restaurant increased.",
+        "The restaurant could now provide additional services such as home deliveries.",
+        "Improved customer satisfaction."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "sub-title": "Data structures / Algorithms / Graph Algorithms / Visualization / Typescript /",
+      "timestamp1": "Month year - Month year",
+      "timestamp2": "https://github.com/lumunge/Graph-Algorithms-Visualization",
+      "roles": []
+    },
+    {
+      "title": "React Developer",
+      "sub-title": "Data structures / Algorithms / Graph Algorithms / Visualization / Typescript /",
+      "timestamp1": "Month year - Month year",
+      "timestamp2": "https://github.com/lumunge/Graph-Algorithms-Visualization",
+      "roles": []
+    }
+  ]
+}

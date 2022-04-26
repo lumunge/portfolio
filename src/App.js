@@ -9,6 +9,7 @@ import Work from "./Pages/Work/Work";
 // import Articles from "./Pages/Articles/Articles";
 import Resources from "./Pages/Resources/Resources";
 import "./index.css";
+import Resume from "./Pages/Resume/Resume";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/work" component={Work} />
           {/* <Route exact path="/articles" component={Articles} /> */}
           <Route exact path="/resources" component={Resources} />
+          <Route exact path="/resume" component={Resume} />
         </Switch>
         <Footer />
       </Scroll>

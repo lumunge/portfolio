@@ -54,6 +54,10 @@ export default makeStyles((theme) => ({
     right: "0",
     float: "right",
     padding: "0 4rem 0 0",
+    "@media (max-width: 1420px)": {
+      display: "none",
+      // backgroundColor: "red",
+    },
   },
   icon: {
     width: "30px",

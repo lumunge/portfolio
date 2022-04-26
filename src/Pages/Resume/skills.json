@@ -1,0 +1,120 @@
+{
+  "skills": [
+    {
+      "title": "Javascript",
+      "years": "4"
+    },
+    {
+      "title": "Linux",
+      "years": "4"
+    },
+    {
+      "title": "Git",
+      "years": "4"
+    },
+    {
+      "title": "C++",
+      "years": "3"
+    },
+    {
+      "title": "Windows",
+      "years": "15"
+    },
+    {
+      "title": "MySQL",
+      "years": "4"
+    },
+    {
+      "title": "VPN",
+      "years": "2"
+    },
+    {
+      "title": "NoSQL",
+      "years": "3"
+    },
+    {
+      "title": "Python",
+      "years": "3"
+    },
+    {
+      "title": "Node.js",
+      "years": "3"
+    },
+    {
+      "title": "CSS3",
+      "years": "5"
+    },
+    {
+      "title": "HTML5",
+      "years": "5"
+    },
+    {
+      "title": "Next.js",
+      "years": "2"
+    },
+    {
+      "title": "JQuery",
+      "years": "2"
+    },
+    {
+      "title": "Typescript",
+      "years": "2"
+    },
+    {
+      "title": "Redux",
+      "years": "3"
+    },
+    {
+      "title": "Java",
+      "years": "2"
+    },
+    {
+      "title": "Django",
+      "years": "2"
+    },
+    {
+      "title": "SEO",
+      "years": "2"
+    },
+    {
+      "title": "Firebase",
+      "years": "2"
+    },
+    {
+      "title": "Problem-Solving",
+      "years": "5"
+    },
+    {
+      "title": "Software Development",
+      "years": "3"
+    },
+    {
+      "title": "Mongo DB",
+      "years": "3"
+    },
+    {
+      "title": "CSS",
+      "years": "5"
+    },
+    {
+      "title": "Docker",
+      "years": "2"
+    },
+    {
+      "title": "SQL",
+      "years": "4"
+    },
+    {
+      "title": "Redis",
+      "years": "2"
+    },
+    {
+      "title": "Google Cloud Platform",
+      "years": "2"
+    },
+    {
+      "title": "API Design and Development",
+      "years": "3"
+    }
+  ]
+}

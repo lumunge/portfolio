@@ -27,4 +27,7 @@ export default makeStyles(() => ({
     alignItems: "center",
     justifyContent: "center",
   },
+  footerDetails: {
+    paddingTop: "1rem",
+  },
 }));

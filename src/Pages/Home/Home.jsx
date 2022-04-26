@@ -5,10 +5,6 @@ import lumunge from "../../img/lumunge.jpg";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
-import github from "../../img/github.png";
-import linkedin from "../../img/linkedin.png";
-import leetcode from "../../img/leetcode.png";
-import hackerrank from "../../img/hackerrank.png";
 
 const Home = () => {
   const classes = useStyles();

@@ -46,9 +46,9 @@ const Navbar = () => {
           <Button className={classes.navLinks} component={Link} to="/work">
             Work
           </Button>
-          <Button className={classes.navLinks} component={Link} to="/resources">
+          {/* <Button className={classes.navLinks} component={Link} to="/resources">
             Resources
-          </Button>
+          </Button> */}
           {/* <Button className={classes.navLinks} component={Link} to="/articles">
             Articles
           </Button> */}
@@ -97,9 +97,9 @@ const Navbar = () => {
             <MenuItem onClick={handleClose} component={Link} to="/work">
               work
             </MenuItem>
-            <MenuItem onClick={handleClose} component={Link} to="/resources">
+            {/* <MenuItem onClick={handleClose} component={Link} to="/resources">
               resources
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem onClick={handleClose}>
               <a
                 className={classes.resume}

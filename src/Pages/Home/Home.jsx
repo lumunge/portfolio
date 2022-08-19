@@ -1,7 +1,7 @@
 import { useState } from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
-import lumunge from "../../img/lumunge.jpg";
+import lumunge from "../../img/profile.png";
 import { Container, Button, Paper, Typography } from "@material-ui/core";
 import MoreHoriz from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles.js";
@@ -19,11 +19,6 @@ const Home = () => {
             <header>
               <Typography className={classes.profileCaption}>whoami</Typography>
             </header>
-            <div className={classes.name}>
-              <Typography variant="h2" className={classes.title}>
-                lumunge
-              </Typography>
-            </div>
             <div className={classes.info}>
               <Typography className={classes.about} variant="h5">
                 I am a passionate and curious programmer with a background in

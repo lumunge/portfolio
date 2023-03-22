@@ -20,18 +20,9 @@ const Home = () => {
               <Typography className={classes.profileCaption}>whoami</Typography>
             </header>
             <div className={classes.info}>
-              <Typography className={classes.about} variant="h5">
-                I am a passionate and curious programmer with a background in
-                computer science.
-              </Typography>
               <Typography variant="h6">
-                I am fond of technology and the disruption it brings. I take the
-                leap every day to improve myself not just for personal reasons
-                but because I understand the impact one can make with technology
-                to change the lives of those around them. Life was meant to be
-                easy and technology solves that problem every day. I love a game
-                of chess, coding, puzzles, cycling, Linux, problem-solving,
-                writing, and mindfulness.
+              I have been a software engineer for 5 years, have a solid background in computer science, and I have a strong enthusiasm and curiosity for programming. Motivated by a sincere interest in how technology can transform our world, I am continuously looking for new tasks and chances to advance my knowledge and skills.
+Recognizing the enormous potential for technology to simplify and enhance our lives, I am dedicated to using my programming expertise to make a positive difference. I have a wide range of hobbies outside of work, such as chess, puzzles, riding, Linux, and mindfulness, all of which help to shape my well-rounded and original problem-solving style.
               </Typography>
             </div>
           </div>

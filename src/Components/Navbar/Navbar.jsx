@@ -59,7 +59,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Articles
+              Blog
             </a>
           </Button>
           <Button className={classes.navLinks}>
